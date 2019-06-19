@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'sz-icons';
+  src: url('../fonts/sz-icons.eot?eihmz9');
+  src: url('../fonts/sz-icons.eot?eihmz9#iefix') format('embedded-opentype'),
+    url('../fonts/sz-icons.ttf?eihmz9') format('truetype'),
+    url('../fonts/sz-icons.woff?eihmz9') format('woff'),
+    url('../fonts/sz-icons.svg?eihmz9#sz-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='sz-icon-'],
+[class*=' sz-icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sz-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.sz-icon-women:before {
+  content: '\e913';
+}
+.sz-icon-man:before {
+  content: '\e919';
+}
+.sz-icon-arrow_back:before {
+  content: '\e910';
+}
+.sz-icon-arrow_forward:before {
+  content: '\e911';
+}
+.sz-icon-notifications:before {
+  content: '\e900';
+}
+.sz-icon-app:before {
+  content: '\e901';
+}
+.sz-icon-drop:before {
+  content: '\e902';
+}
+.sz-icon-rapport:before {
+  content: '\e903';
+}
+.sz-icon-exchange:before {
+  content: '\e904';
+}
+.sz-icon-pin:before {
+  content: '\e905';
+}
+.sz-icon-refresh:before {
+  content: '\e906';
+}
+.sz-icon-field:before {
+  content: '\e907';
+}
+.sz-icon-fleche_down:before {
+  content: '\e908';
+}
+.sz-icon-notification_important:before {
+  content: '\e909';
+}
+.sz-icon-download:before {
+  content: '\e90a';
+}
+.sz-icon-document:before {
+  content: '\e90b';
+}
+.sz-icon-Command:before {
+  content: '\e90c';
+}
+.sz-icon-close:before {
+  content: '\e90d';
+}
+.sz-icon-pin2:before {
+  content: '\e90e';
+}
+.sz-icon-menu:before {
+  content: '\e90f';
+}
+.sz-icon-arrow-right:before {
+  content: '\e912';
+}
+.sz-icon-arrosage:before {
+  content: '\e914';
+}
+.sz-icon-setting:before {
+  content: '\e915';
+}
+.sz-icon-home:before {
+  content: '\e916';
+}
+.sz-icon-tap:before {
+  content: '\e917';
+}
+.sz-icon-Commune:before {
+  content: '\e918';
+}
+.sz-icon-checkbox-checked:before {
+  content: '\ea52';
+}
+.sz-icon-checkbox-unchecked:before {
+  content: '\ea53';
+}
+.sz-icon-radio-checked:before {
+  content: '\ea54';
+}
+.sz-icon-radio-unchecked:before {
+  content: '\ea56';
+}

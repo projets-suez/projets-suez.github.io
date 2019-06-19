@@ -1,0 +1,41 @@
+// Overwrite Bootstrap's variables here
+// You can find them in node_modules/bootstrap/scss/_variables.scss
+// Copy the variables you need into this file, don't modify files under node_modules/
+
+// Enabling shadows and gradients
+$enable-shadows: true;
+$enable-gradients: true;
+
+// Changing the body background and text
+$body-bg: #f7f7f7;
+$body-color: #404887;
+
+// Changing the border radius of buttons
+$border-radius: 0px;
+$border-radius-circle: 50px;
+// Default spacing
+$default-spacing: 8px;
+
+// Font size base
+$font-size-base: 0.875rem;
+
+// Alert bg
+$alert-bg-level: 0;
+
+// Changing the theme colors
+$primary: #030f40;
+$secondary: #aadc14;
+$success: #2bc550;
+$info: #495dff;
+$warning: #ef8143;
+$danger: #eb4a65;
+$light: #eaedf4;
+$dark: #0f1319;
+$grey: #c1c4cc;
+$light-green: #d5f02d;
+$light-blue: #f4f8ff;
+
+// Adding (!) an additional theme color (ex. classes btn-suez, bg-suez)
+$theme-colors: (
+  'suez': #4d3fa3
+);
