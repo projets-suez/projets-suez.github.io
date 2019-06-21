@@ -1,3 +1,16 @@
 .sz-small-font-size {
   font-size: 0.75rem;
 }
+.sz-normal-font-size {
+  font-size: 1rem;
+}
+.sz-underline {
+  &::after{
+    content: '';
+    display: block;
+    width: 40px;
+    height: 4px;
+    margin: 8px 0;
+    background-color: $secondary;
+  }
+}

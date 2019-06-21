@@ -131,7 +131,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #030f40;
+  --primary: #030F40;
   --secondary: #aadc14;
   --success: #2bc550;
   --info: #495dff;
@@ -244,7 +244,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: #030f40;
+  color: #030F40;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
@@ -1836,8 +1836,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background: #030f40 linear-gradient(180deg, #28325b, #030f40) repeat-x;
-  border-color: #030f40;
+  background: #030F40 linear-gradient(180deg, #28325b, #030F40) repeat-x;
+  border-color: #030F40;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
   .btn-primary:hover {
     color: #fff;
@@ -1847,8 +1847,8 @@ fieldset:disabled a.btn {
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(41, 51, 93, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
-    background-color: #030f40;
-    border-color: #030f40;
+    background-color: #030F40;
+    border-color: #030F40;
     background-image: none; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
@@ -2069,22 +2069,22 @@ fieldset:disabled a.btn {
       box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(104, 92, 177, 0.5); }
 
 .btn-outline-primary {
-  color: #030f40;
-  border-color: #030f40; }
+  color: #030F40;
+  border-color: #030F40; }
   .btn-outline-primary:hover {
     color: #fff;
-    background-color: #030f40;
-    border-color: #030f40; }
+    background-color: #030F40;
+    border-color: #030F40; }
   .btn-outline-primary:focus, .btn-outline-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(3, 15, 64, 0.5); }
   .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-    color: #030f40;
+    color: #030F40;
     background-color: transparent; }
   .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
   .show > .btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #030f40;
-    border-color: #030f40; }
+    background-color: #030F40;
+    border-color: #030F40; }
     .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-primary.dropdown-toggle:focus {
       box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(3, 15, 64, 0.5); }
@@ -2259,7 +2259,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #030f40;
+  color: #030F40;
   text-decoration: none; }
   .btn-link:hover {
     color: black;
@@ -2495,7 +2495,7 @@ input[type="button"].btn-block {
   .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background: #030f40 linear-gradient(180deg, #28325b, #030f40) repeat-x; }
+    background: #030F40 linear-gradient(180deg, #28325b, #030F40) repeat-x; }
   .dropdown-item.disabled, .dropdown-item:disabled {
     color: #6c757d;
     pointer-events: none;
@@ -2774,8 +2774,8 @@ input[type="button"].btn-block {
   opacity: 0; }
   .custom-control-input:checked ~ .custom-control-label::before {
     color: #fff;
-    border-color: #030f40;
-    background: #030f40 linear-gradient(180deg, #28325b, #030f40) repeat-x;
+    border-color: #030F40;
+    background: #030F40 linear-gradient(180deg, #28325b, #030F40) repeat-x;
     box-shadow: none; }
   .custom-control-input:focus ~ .custom-control-label::before {
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(3, 15, 64, 0.25); }
@@ -2824,8 +2824,8 @@ input[type="button"].btn-block {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e"); }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #030f40;
-  background: #030f40 linear-gradient(180deg, #28325b, #030f40) repeat-x;
+  border-color: #030F40;
+  background: #030F40 linear-gradient(180deg, #28325b, #030F40) repeat-x;
   box-shadow: none; }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -2992,7 +2992,7 @@ input[type="button"].btn-block {
     width: 1rem;
     height: 1rem;
     margin-top: -0.25rem;
-    background: #030f40 linear-gradient(180deg, #28325b, #030f40) repeat-x;
+    background: #030F40 linear-gradient(180deg, #28325b, #030F40) repeat-x;
     border: 0;
     border-radius: 1rem;
     box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
@@ -3015,7 +3015,7 @@ input[type="button"].btn-block {
   .custom-range::-moz-range-thumb {
     width: 1rem;
     height: 1rem;
-    background: #030f40 linear-gradient(180deg, #28325b, #030f40) repeat-x;
+    background: #030F40 linear-gradient(180deg, #28325b, #030F40) repeat-x;
     border: 0;
     border-radius: 1rem;
     box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
@@ -3041,7 +3041,7 @@ input[type="button"].btn-block {
     margin-top: 0;
     margin-right: 0.2rem;
     margin-left: 0.2rem;
-    background: #030f40 linear-gradient(180deg, #28325b, #030f40) repeat-x;
+    background: #030F40 linear-gradient(180deg, #28325b, #030F40) repeat-x;
     border: 0;
     border-radius: 1rem;
     box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
@@ -3136,7 +3136,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #030f40; }
+  background-color: #030F40; }
 
 .nav-fill .nav-item {
   flex: 1 1 auto;
@@ -3619,7 +3619,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #030f40;
+  color: #030F40;
   background-color: #fff;
   border: 1px solid #dee2e6; }
   .page-link:hover {
@@ -3645,8 +3645,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #030f40;
-  border-color: #030f40; }
+  background-color: #030F40;
+  border-color: #030F40; }
 
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -3711,7 +3711,7 @@ input[type="button"].btn-block {
 
 .badge-primary {
   color: #fff;
-  background-color: #030f40; }
+  background-color: #030F40; }
   a.badge-primary:hover, a.badge-primary:focus {
     color: #fff;
     background-color: #01040f; }
@@ -3938,7 +3938,7 @@ input[type="button"].btn-block {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #030f40;
+  background-color: #030F40;
   transition: width 0.6s ease; }
   @media (prefers-reduced-motion: reduce) {
     .progress-bar {
@@ -4001,8 +4001,8 @@ input[type="button"].btn-block {
   .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: #030f40;
-    border-color: #030f40; }
+    background-color: #030F40;
+    border-color: #030F40; }
 
 .list-group-horizontal {
   flex-direction: row; }
@@ -4821,7 +4821,7 @@ a.close.disabled {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #030f40 !important; }
+  background-color: #030F40 !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -4893,7 +4893,7 @@ button.bg-suez:focus {
   background-color: #3c317e !important; }
 
 .bg-gradient-primary {
-  background: #030f40 linear-gradient(180deg, #28325b, #030f40) repeat-x !important; }
+  background: #030F40 linear-gradient(180deg, #28325b, #030F40) repeat-x !important; }
 
 .bg-gradient-secondary {
   background: #aadc14 linear-gradient(180deg, #b6e036, #aadc14) repeat-x !important; }
@@ -4956,7 +4956,7 @@ button.bg-suez:focus {
   border-left: 0 !important; }
 
 .border-primary {
-  border-color: #030f40 !important; }
+  border-color: #030F40 !important; }
 
 .border-secondary {
   border-color: #aadc14 !important; }
@@ -7185,7 +7185,7 @@ button.bg-suez:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: #030f40 !important; }
+  color: #030F40 !important; }
 
 a.text-primary:hover, a.text-primary:focus {
   color: black !important; }
@@ -7333,3 +7333,14 @@ a.text-suez:hover, a.text-suez:focus {
 
 .sz-small-font-size {
   font-size: 0.75rem; }
+
+.sz-normal-font-size {
+  font-size: 1rem; }
+
+.sz-underline::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 4px;
+  margin: 8px 0;
+  background-color: #aadc14; }
