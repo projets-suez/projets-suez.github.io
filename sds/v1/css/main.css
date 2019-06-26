@@ -7344,3 +7344,6 @@ a.text-suez:hover, a.text-suez:focus {
   height: 4px;
   margin: 8px 0;
   background-color: #aadc14; }
+
+.sz-border-2 {
+  border: 2px solid; }
