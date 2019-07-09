@@ -7340,6 +7340,12 @@ a.text-suez:hover, a.text-suez:focus {
 .sz-big-font-size {
   font-size: 1.5rem; }
 
+.sz-big-icon-size {
+  font-size: 9rem; }
+
+.sz-line-height-normal {
+  line-height: 1; }
+
 .sz-underline::after {
   content: '';
   display: block;
