@@ -7356,3 +7356,12 @@ a.text-suez:hover, a.text-suez:focus {
 
 .sz-border-2 {
   border: 2px solid; }
+
+.sz-left-border::before {
+  content: '';
+  width: 4px;
+  position: absolute;
+  background: #aadc14;
+  top: 4px;
+  bottom: 4px;
+  left: 4px; }
