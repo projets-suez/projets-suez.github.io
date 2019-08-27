@@ -1,3 +1,5 @@
+@import '~bootstrap/scss/mixins';
+
 .sz-small-font-size {
   font-size: 0.75rem;
 }
@@ -20,7 +22,7 @@
     width: 40px;
     height: 4px;
     margin: 8px 0;
-    background-color: $secondary;
+    background-color: var(--#{$secondary});
   }
 }
 .sz-border-2 {
@@ -31,9 +33,26 @@
     content: '';
     width: 4px;
     position: absolute;
-    background: $secondary;
+    background: var(--#{$secondary});
     top: 4px;
     bottom: 4px;
     left: 4px;
   }
 }
+@each $color, $value in $theme-colors {
+  .bg-#{$color} {
+    background-color: var(--#{$color}) !important;
+  }
+  .text-#{$color} {
+    color: var(--#{$color}) !important;
+  }
+  .btn-#{$color} {
+    background: linear-gradient(to left, var(--#{light-gradient}), var(--#{$color})) repeat-x;
+    border-color: var(--#{$color});
+    &:hover {
+      background: linear-gradient(to left, var(--#{light-gradient}), var(--#{$color})) repeat-x;
+      border-color: var(--#{$color});
+    }
+  }
+}
+

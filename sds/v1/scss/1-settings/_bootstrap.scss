@@ -6,10 +6,6 @@
 $enable-shadows: true;
 $enable-gradients: true;
 
-// Changing the body background and text
-$body-bg: #f0f1f6;
-$body-color: #030f40;
-
 // Changing the border radius of buttons
 $border-radius: 0px;
 $border-radius-circle: 50px;
@@ -25,7 +21,7 @@ $alert-bg-level: 0;
 
 // Changing the theme colors
 $primary: #030f40;
-$secondary: #aadc14;
+$secondary: #a3d049;
 $success: #2bc550;
 $info: #495dff;
 $warning: #ef8143;
@@ -38,5 +34,12 @@ $light-blue: #f4f8ff;
 
 // Adding (!) an additional theme color (ex. classes btn-suez, bg-suez)
 $theme-colors: (
-  'suez': #4d3fa3
+  'suez': #4d3fa3,
+  'toolbar': #030f40,
+  'light-gradient': lighten($secondary, 5%),
+  'grey': #c1c4cc
 );
+
+// Changing the body background and text
+$body-bg: #f0f1f6;
+$body-color: var(--#{$primary});

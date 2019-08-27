@@ -24,6 +24,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.sz-icon-check:before {
+  content: "\e91a";
+}
 .sz-icon-women:before {
   content: '\e913';
 }
