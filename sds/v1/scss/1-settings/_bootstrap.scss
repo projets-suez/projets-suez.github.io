@@ -37,9 +37,10 @@ $theme-colors: (
   'suez': #4d3fa3,
   'toolbar': #030f40,
   'light-gradient': lighten($secondary, 5%),
-  'grey': #c1c4cc
+  'grey': #c1c4cc,
+  'primary': #030f40
 );
 
 // Changing the body background and text
 $body-bg: #f0f1f6;
-$body-color: var(--#{$primary});
+$body-color: var(--primary);

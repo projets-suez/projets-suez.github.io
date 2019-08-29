@@ -21,7 +21,7 @@
   -moz-osx-font-smoothing: grayscale; }
 
 .sz-icon-check:before {
-  content: "\e91a"; }
+  content: '\e91a'; }
 
 .sz-icon-women:before {
   content: '\e913'; }
@@ -174,7 +174,7 @@ body {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
-  color: var(--#030f40);
+  color: var(--primary);
   text-align: left;
   background-color: #f0f1f6; }
 
@@ -1155,7 +1155,7 @@ pre {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: var(--#030f40); }
+  color: var(--primary); }
   .table th,
   .table td {
     padding: 0.75rem;
@@ -1190,7 +1190,7 @@ pre {
   background-color: rgba(0, 0, 0, 0.05); }
 
 .table-hover tbody tr:hover {
-  color: var(--#030f40);
+  color: var(--primary);
   background-color: rgba(0, 0, 0, 0.075); }
 
 .table-primary,
@@ -1546,7 +1546,7 @@ select.form-control:focus::-ms-value {
   padding-bottom: 0.375rem;
   margin-bottom: 0;
   line-height: 1.5;
-  color: var(--#030f40);
+  color: var(--primary);
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0; }
@@ -1859,7 +1859,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: var(--#030f40);
+  color: var(--primary);
   text-align: center;
   vertical-align: middle;
   user-select: none;
@@ -1874,7 +1874,7 @@ textarea.form-control {
     .btn {
       transition: none; } }
   .btn:hover {
-    color: var(--#030f40);
+    color: var(--primary);
     text-decoration: none; }
   .btn:focus, .btn.focus {
     outline: 0;
@@ -2543,7 +2543,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 0.875rem;
-  color: var(--#030f40);
+  color: var(--primary);
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -4232,7 +4232,7 @@ input[type="button"].btn-block {
     text-decoration: none;
     background-color: #f8f9fa; }
   .list-group-item-action:active {
-    color: var(--#030f40);
+    color: var(--primary);
     background-color: #e9ecef; }
 
 .list-group-item {
@@ -4897,7 +4897,7 @@ a.close.disabled {
 
 .popover-body {
   padding: 0.5rem 0.75rem;
-  color: var(--#030f40); }
+  color: var(--primary); }
 
 .carousel {
   position: relative; }
@@ -7587,7 +7587,7 @@ a.text-grey:hover, a.text-grey:focus {
   color: #979ca9 !important; }
 
 .text-body {
-  color: var(--#030f40) !important; }
+  color: var(--primary) !important; }
 
 .text-muted {
   color: #6c757d !important; }
@@ -7700,7 +7700,7 @@ a.text-grey:hover, a.text-grey:focus {
   width: 40px;
   height: 4px;
   margin: 8px 0;
-  background-color: var(--#a3d049); }
+  background-color: var(--secondary); }
 
 .sz-border-2 {
   border: 2px solid; }
@@ -7709,7 +7709,7 @@ a.text-grey:hover, a.text-grey:focus {
   content: '';
   width: 4px;
   position: absolute;
-  background: var(--#a3d049);
+  background: var(--secondary);
   top: 4px;
   bottom: 4px;
   left: 4px; }
@@ -7727,6 +7727,9 @@ a.text-grey:hover, a.text-grey:focus {
     background: linear-gradient(to left, var(--light-gradient), var(--primary)) repeat-x;
     border-color: var(--primary); }
 
+.border-primary {
+  border-color: var(--primary) !important; }
+
 .bg-secondary {
   background-color: var(--secondary) !important; }
 
@@ -7739,6 +7742,9 @@ a.text-grey:hover, a.text-grey:focus {
   .btn-secondary:hover {
     background: linear-gradient(to left, var(--light-gradient), var(--secondary)) repeat-x;
     border-color: var(--secondary); }
+
+.border-secondary {
+  border-color: var(--secondary) !important; }
 
 .bg-success {
   background-color: var(--success) !important; }
@@ -7753,6 +7759,9 @@ a.text-grey:hover, a.text-grey:focus {
     background: linear-gradient(to left, var(--light-gradient), var(--success)) repeat-x;
     border-color: var(--success); }
 
+.border-success {
+  border-color: var(--success) !important; }
+
 .bg-info {
   background-color: var(--info) !important; }
 
@@ -7765,6 +7774,9 @@ a.text-grey:hover, a.text-grey:focus {
   .btn-info:hover {
     background: linear-gradient(to left, var(--light-gradient), var(--info)) repeat-x;
     border-color: var(--info); }
+
+.border-info {
+  border-color: var(--info) !important; }
 
 .bg-warning {
   background-color: var(--warning) !important; }
@@ -7779,6 +7791,9 @@ a.text-grey:hover, a.text-grey:focus {
     background: linear-gradient(to left, var(--light-gradient), var(--warning)) repeat-x;
     border-color: var(--warning); }
 
+.border-warning {
+  border-color: var(--warning) !important; }
+
 .bg-danger {
   background-color: var(--danger) !important; }
 
@@ -7791,6 +7806,9 @@ a.text-grey:hover, a.text-grey:focus {
   .btn-danger:hover {
     background: linear-gradient(to left, var(--light-gradient), var(--danger)) repeat-x;
     border-color: var(--danger); }
+
+.border-danger {
+  border-color: var(--danger) !important; }
 
 .bg-light {
   background-color: var(--light) !important; }
@@ -7805,6 +7823,9 @@ a.text-grey:hover, a.text-grey:focus {
     background: linear-gradient(to left, var(--light-gradient), var(--light)) repeat-x;
     border-color: var(--light); }
 
+.border-light {
+  border-color: var(--light) !important; }
+
 .bg-dark {
   background-color: var(--dark) !important; }
 
@@ -7817,6 +7838,9 @@ a.text-grey:hover, a.text-grey:focus {
   .btn-dark:hover {
     background: linear-gradient(to left, var(--light-gradient), var(--dark)) repeat-x;
     border-color: var(--dark); }
+
+.border-dark {
+  border-color: var(--dark) !important; }
 
 .bg-suez {
   background-color: var(--suez) !important; }
@@ -7831,6 +7855,9 @@ a.text-grey:hover, a.text-grey:focus {
     background: linear-gradient(to left, var(--light-gradient), var(--suez)) repeat-x;
     border-color: var(--suez); }
 
+.border-suez {
+  border-color: var(--suez) !important; }
+
 .bg-toolbar {
   background-color: var(--toolbar) !important; }
 
@@ -7843,6 +7870,9 @@ a.text-grey:hover, a.text-grey:focus {
   .btn-toolbar:hover {
     background: linear-gradient(to left, var(--light-gradient), var(--toolbar)) repeat-x;
     border-color: var(--toolbar); }
+
+.border-toolbar {
+  border-color: var(--toolbar) !important; }
 
 .bg-light-gradient {
   background-color: var(--light-gradient) !important; }
@@ -7857,6 +7887,9 @@ a.text-grey:hover, a.text-grey:focus {
     background: linear-gradient(to left, var(--light-gradient), var(--light-gradient)) repeat-x;
     border-color: var(--light-gradient); }
 
+.border-light-gradient {
+  border-color: var(--light-gradient) !important; }
+
 .bg-grey {
   background-color: var(--grey) !important; }
 
@@ -7869,3 +7902,6 @@ a.text-grey:hover, a.text-grey:focus {
   .btn-grey:hover {
     background: linear-gradient(to left, var(--light-gradient), var(--grey)) repeat-x;
     border-color: var(--grey); }
+
+.border-grey {
+  border-color: var(--grey) !important; }

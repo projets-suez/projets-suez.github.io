@@ -1,5 +1,4 @@
 @import '~bootstrap/scss/mixins';
-
 .sz-small-font-size {
   font-size: 0.75rem;
 }
@@ -22,18 +21,19 @@
     width: 40px;
     height: 4px;
     margin: 8px 0;
-    background-color: var(--#{$secondary});
+    background-color: var(--secondary);
   }
 }
 .sz-border-2 {
   border: 2px solid;
 }
+
 .sz-left-border {
   &::before {
     content: '';
     width: 4px;
     position: absolute;
-    background: var(--#{$secondary});
+    background: var(--secondary);
     top: 4px;
     bottom: 4px;
     left: 4px;
@@ -47,12 +47,24 @@
     color: var(--#{$color}) !important;
   }
   .btn-#{$color} {
-    background: linear-gradient(to left, var(--#{light-gradient}), var(--#{$color})) repeat-x;
+    background: linear-gradient(
+        to left,
+        var(--#{light-gradient}),
+        var(--#{$color})
+      )
+      repeat-x;
     border-color: var(--#{$color});
     &:hover {
-      background: linear-gradient(to left, var(--#{light-gradient}), var(--#{$color})) repeat-x;
+      background: linear-gradient(
+          to left,
+          var(--#{light-gradient}),
+          var(--#{$color})
+        )
+        repeat-x;
       border-color: var(--#{$color});
     }
   }
+  .border-#{$color} {
+    border-color: var(--#{$color}) !important;
+  }
 }
-
