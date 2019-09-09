@@ -39,6 +39,11 @@
     left: 4px;
   }
 }
+
+.text-muted {
+  color: var(--gray-light);
+}
+
 @each $color, $value in $theme-colors {
   .bg-#{$color} {
     background-color: var(--#{$color}) !important;

@@ -6,9 +6,14 @@
 $enable-shadows: true;
 $enable-gradients: true;
 
-// Changing the border radius of buttons
+// Changing the border width and radius of buttons
+$border-width: 2px;
 $border-radius: 0px;
 $border-radius-circle: 50px;
+
+// Changing the table border width and radius of buttons
+$table-border-width: 1px;
+
 // Default spacing
 $default-spacing: 8px;
 
@@ -31,14 +36,13 @@ $dark: #0f1319;
 $grey: #c1c4cc;
 $light-green: #d5f02d;
 $light-blue: #f4f8ff;
+$gray-light: #8A9396;
 
 // Adding (!) an additional theme color (ex. classes btn-suez, bg-suez)
 $theme-colors: (
-  'suez': #4d3fa3,
   'toolbar': #030f40,
   'light-gradient': lighten($secondary, 5%),
-  'grey': #c1c4cc,
-  'primary': #030f40
+  'btn-disable': #CBCED5
 );
 
 // Changing the body background and text
