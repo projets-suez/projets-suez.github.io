@@ -22,6 +22,12 @@ $default-spacing: 8px;
 // Font base
 $font-family-base: 'DINPro';
 $font-size-base: 0.875rem;
+$h1-font-size: 1rem;
+$h2-font-size: $font-size-base;
+$h3-font-size: $font-size-base;
+
+$font-weight-normal: 500 !default;
+$font-weight-bold: 900 !default;
 
 // Alert bg
 $alert-bg-level: 0;
