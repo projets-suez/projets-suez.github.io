@@ -1,18 +1,26 @@
 @import '~bootstrap/scss/mixins';
-.sz-small-font-size {
-  font-size: 0.75rem;
+
+.font-family-bold {
+  font-family: $headings-font-family;
+  font-weight: 900;
 }
-.sz-normal-font-size {
-  font-size: 1rem;
+.smaller {
+  font-size: 0.625em;
+ }
+.small {
+  font-size: 0.75em;
 }
-.sz-big-font-size {
-  font-size: 1.5rem;
+.big {
+  font-size: 3.429em;
 }
 .sz-big-icon-size {
   font-size: 9rem;
 }
 .sz-line-height-normal {
   line-height: 1;
+}
+.sz-text-underline {
+  text-decoration: underline;
 }
 .sz-underline {
   &::after {
