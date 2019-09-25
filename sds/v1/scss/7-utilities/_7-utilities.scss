@@ -49,7 +49,9 @@
 .text-muted {
   color: var(--gray-light);
 }
-
+.letter-spacing {
+  letter-spacing: 1px;
+}
 @each $color, $value in $theme-colors {
   .bg-#{$color} {
     background-color: var(--#{$color}) !important;

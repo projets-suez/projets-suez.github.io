@@ -8,6 +8,16 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'sz-icon-2';
+  src: url('../fonts/sz-icon-2.eot?eihmz9');
+  src: url('../fonts/sz-icon-2.eot?eihmz9#iefix') format('embedded-opentype'),
+    url('../fonts/sz-icon-2.ttf?eihmz9') format('truetype'),
+    url('../fonts/sz-icon-2.woff?eihmz9') format('woff'),
+    url('../fonts/sz-icon-2.svg?eihmz9#sz-icon-2') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 [class^='sz-icon-'],
 [class*=' sz-icon-'] {
@@ -117,3 +127,20 @@
 .sz-icon-radio-unchecked:before {
   content: '\ea56';
 }
+.sz-icon-sold:before {
+  font-family: 'sz-icon-2';
+  content: '\e100';
+}
+.sz-icon-bill:before {
+  font-family: 'sz-icon-2';
+  content: '\e101';
+}
+.sz-icon-link:before {
+  content: '\e911';
+  color: #fff;
+  background: var(--primary);
+  font-size: $font-size-base;
+  padding: 2px;
+  border-radius: 5px;
+}
+

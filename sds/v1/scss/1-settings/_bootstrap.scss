@@ -24,7 +24,7 @@ $font-family-sans-serif: 'DINPro-Medium';
 $headings-font-family: 'DINPro-Bold';
 $headings-font-weight: 900;
 $font-size-base: 0.875rem;
-$h1-font-size: 1em;
+$h1-font-size: 1rem;
 $h2-font-size: $font-size-base;
 $h3-font-size: $font-size-base;
 
@@ -52,7 +52,8 @@ $theme-colors: (
   'toolbar': #030f40,
   'light-gradient': lighten($secondary, 5%),
   'btn-disable': #cbced5,
-  'gray-light': #8a9396
+  'gray-light': #8a9396,
+  'placeholder': #7c818b
 );
 
 // Changing the body background and text
