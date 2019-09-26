@@ -58,6 +58,14 @@
 .sz-icon-drop:before {
   content: '\e902';
 }
+.sz-icon-arrow_down {
+  display: inline-block;
+  transform: rotate(-90deg);
+  font-weight: bold;
+  &:before {
+    content: '\e910';
+  }
+}
 .sz-icon-rapport:before {
   content: '\e903';
 }
@@ -67,8 +75,11 @@
 .sz-icon-pin:before {
   content: '\e905';
 }
-.sz-icon-refresh:before {
-  content: '\e906';
+.sz-icon-refresh {
+  transform: scale(-1, 1) rotate(-45deg);
+  &:before {
+    content: '\e906';
+  }
 }
 .sz-icon-field:before {
   content: '\e907';
@@ -143,4 +154,3 @@
   padding: 2px;
   border-radius: 5px;
 }
-
