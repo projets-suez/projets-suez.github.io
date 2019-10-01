@@ -7884,7 +7884,7 @@ a.text-placeholder:hover, a.text-placeholder:focus {
   left: 4px; }
 
 .text-muted {
-  color: var(--gray-light); }
+  color: var(--gray-light) !important; }
 
 .letter-spacing {
   letter-spacing: 1px; }
