@@ -39,14 +39,23 @@
   border: 2px solid;
 }
 .sz-left-border {
-  &::before {
+  &-light::after,
+  &::after {
     content: '';
     width: 4px;
+    border-radius: 4px;
     position: absolute;
+    left: 4px;
     background: var(--secondary);
+  }
+  &::after {
     top: 4px;
     bottom: 4px;
-    left: 4px;
+  }
+  &-light::after {
+    top: 3px;
+    bottom: 3px;
+    opacity: 0.3;
   }
 }
 .text-muted {

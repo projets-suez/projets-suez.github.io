@@ -2,6 +2,10 @@
 // You can find them in node_modules/bootstrap/scss/_variables.scss
 // Copy the variables you need into this file, don't modify files under node_modules/
 
+// Changing the body background and text
+$body-bg: #f7f7f7;
+$body-color: var(--primary);
+
 // Enabling shadows and gradients
 $enable-shadows: true;
 $enable-gradients: true;
@@ -13,9 +17,9 @@ $border-radius-circle: 50px;
 
 // Changing the input border width
 $input-border-width: 1px;
-// Changing the table border width and radius of buttons
+// Changing the table variables
 $table-border-width: 1px;
-
+$table-border-color: $body-bg;
 // Default spacing
 $default-spacing: 8px;
 
@@ -34,7 +38,7 @@ $font-weight-bold: 900 !default;
 // Alert bg
 $alert-bg-level: 0;
 
-// Changing the theme colors
+// Changing the default theme colors created by bootstrap
 $primary: #030f40;
 $secondary: #a3d049;
 $success: #2bc550;
@@ -44,8 +48,6 @@ $danger: #eb4a65;
 $light: #eaedf4;
 $dark: #0f1319;
 $grey: #c1c4cc;
-$light-green: #d5f02d;
-$light-blue: #f4f8ff;
 
 // Adding (!) an additional theme color (ex. classes btn-suez, bg-suez)
 $theme-colors: (
@@ -53,9 +55,7 @@ $theme-colors: (
   'light-gradient': lighten($secondary, 5%),
   'btn-disable': #cbced5,
   'gray-light': #8a9396,
-  'placeholder': #7c818b
+  'placeholder': #7c818b,
+  'light-green': #d5f02d,
+  'light-blue': #f4f9ff
 );
-
-// Changing the body background and text
-$body-bg: #f0f1f6;
-$body-color: var(--primary);
