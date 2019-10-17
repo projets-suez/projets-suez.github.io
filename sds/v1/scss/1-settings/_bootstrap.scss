@@ -59,3 +59,13 @@ $theme-colors: (
   'light-green': #d5f02d,
   'light-blue': #f4f9ff
 );
+
+@-moz-document url-prefix() {
+  h1,
+  h2,
+  h3,
+  h4,
+  .font-family-bold {
+    font-family: 'DINPro-Medium';
+  }
+}

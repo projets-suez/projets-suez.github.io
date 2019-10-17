@@ -88,6 +88,10 @@
         repeat-x;
       border-color: var(--#{$color});
     }
+    &.disabled,
+    &:disabled {
+      opacity: 1,
+    }
   }
   .border-#{$color} {
     border-color: var(--#{$color}) !important;
