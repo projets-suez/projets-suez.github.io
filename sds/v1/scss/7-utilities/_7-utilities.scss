@@ -1,5 +1,8 @@
 @import '~bootstrap/scss/mixins';
 
+.cursor-pointer {
+  cursor: pointer;
+}
 .font-family-bold {
   font-family: $headings-font-family;
   font-weight: 900;
@@ -9,6 +12,9 @@
 }
 .small {
   font-size: 0.75em;
+}
+.normal {
+  font-size: 1em;
 }
 .big {
   font-size: 3.429em;
