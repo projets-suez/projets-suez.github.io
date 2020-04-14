@@ -1,0 +1,367 @@
+@font-face {
+  font-family: 'sz-icons-bold';
+  src: url('../fonts/SzIcons/sz-icons-bold/sz-icons-bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/SzIcons/sz-icons-bold/sz-icons-bold.woff') format('woff'),
+    url('../fonts/SzIcons/sz-icons-bold/sz-icons-bold.woff2') format('woff2'),
+    url('../fonts/SzIcons/sz-icons-bold/sz-icons-bold.ttf') format('truetype'),
+    url('../fonts/SzIcons/sz-icons-bold/sz-icons-bold.svg#sz-icons-bold')
+      format('svg');
+}
+
+[class^='sz-icon-bold'],
+[class*=' sz-icon-bold'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sz-icons-bold' !important;
+  font-size: 1.5rem;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1.5;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sz-icon-bold.accounting-document:before {
+  content: '\f101';
+}
+.sz-icon-bold.add-circle:before {
+  content: '\f102';
+}
+.sz-icon-bold.add-square:before {
+  content: '\f103';
+}
+.sz-icon-bold.agriculture-machine-tractor:before {
+  content: '\f104';
+}
+.sz-icon-bold.alarm-bell:before {
+  content: '\f105';
+}
+.sz-icon-bold.alert-triangle:before {
+  content: '\f106';
+}
+.sz-icon-bold.analytics-bars:before {
+  content: '\f107';
+}
+.sz-icon-bold.app-window-settings:before {
+  content: '\f108';
+}
+.sz-icon-bold.arrow-button-down-2:before {
+  content: '\f109';
+}
+.sz-icon-bold.arrow-button-right-2:before {
+  content: '\f10a';
+}
+.sz-icon-bold.arrow-button-up-2:before {
+  content: '\f10b';
+}
+.sz-icon-bold.arrow-corner-left:before {
+  content: '\f10c';
+}
+.sz-icon-bold.arrow-corner-right:before {
+  content: '\f10d';
+}
+.sz-icon-bold.arrow-down-1:before {
+  content: '\f10e';
+}
+.sz-icon-bold.arrow-down:before {
+  content: '\f10f';
+}
+.sz-icon-bold.arrow-left-1:before {
+  content: '\f110';
+}
+.sz-icon-bold.arrow-left:before {
+  content: '\f111';
+}
+.sz-icon-bold.arrow-rectangle-down:before {
+  content: '\f112';
+}
+.sz-icon-bold.arrow-rectangle-left:before {
+  content: '\f113';
+}
+.sz-icon-bold.arrow-rectangle-right:before {
+  content: '\f114';
+}
+.sz-icon-bold.arrow-rectangle-up:before {
+  content: '\f115';
+}
+.sz-icon-bold.arrow-right-1:before {
+  content: '\f116';
+}
+.sz-icon-bold.arrow-right:before {
+  content: '\f117';
+}
+.sz-icon-bold.arrow-up-1:before {
+  content: '\f118';
+}
+.sz-icon-bold.arrow-up:before {
+  content: '\f119';
+}
+.sz-icon-bold.attachment:before {
+  content: '\f11a';
+}
+.sz-icon-bold.beach-sun-birds:before {
+  content: '\f11b';
+}
+.sz-icon-bold.bin-1:before {
+  content: '\f11c';
+}
+.sz-icon-bold.business-contract-handshake-sign:before {
+  content: '\f11d';
+}
+.sz-icon-bold.button-next:before {
+  content: '\f11e';
+}
+.sz-icon-bold.button-previous:before {
+  content: '\f11f';
+}
+.sz-icon-bold.calendar-3:before {
+  content: '\f120';
+}
+.sz-icon-bold.camera-1:before {
+  content: '\f121';
+}
+.sz-icon-bold.cat-fish-toy:before {
+  content: '\f122';
+}
+.sz-icon-bold.check-circle-1:before {
+  content: '\f123';
+}
+.sz-icon-bold.check:before {
+  content: '\f124';
+}
+.sz-icon-bold.close:before {
+  content: '\f125';
+}
+.sz-icon-bold.cog:before {
+  content: '\f126';
+}
+.sz-icon-bold.color-drop-pick:before {
+  content: '\f127';
+}
+.sz-icon-bold.common-file-text-download:before {
+  content: '\f128';
+}
+.sz-icon-bold.common-file-text-upload:before {
+  content: '\f129';
+}
+.sz-icon-bold.common-file-text:before {
+  content: '\f12a';
+}
+.sz-icon-bold.construction-pipe-1:before {
+  content: '\f12b';
+}
+.sz-icon-bold.copy-paste:before {
+  content: '\f12c';
+}
+.sz-icon-bold.credit-card-1:before {
+  content: '\f12d';
+}
+.sz-icon-bold.currency-euro-circle:before {
+  content: '\f12e';
+}
+.sz-icon-bold.data-file-bars-info:before {
+  content: '\f12f';
+}
+.sz-icon-bold.diagram-round:before {
+  content: '\f130';
+}
+.sz-icon-bold.download-bottom:before {
+  content: '\f131';
+}
+.sz-icon-bold.envelope:before {
+  content: '\f132';
+}
+.sz-icon-bold.filter-1:before {
+  content: '\f133';
+}
+.sz-icon-bold.floppy-disk:before {
+  content: '\f134';
+}
+.sz-icon-bold.folder-file-1:before {
+  content: '\f135';
+}
+.sz-icon-bold.gardening-hand-sprinkler:before {
+  content: '\f136';
+}
+.sz-icon-bold.hardware-drill-carbide:before {
+  content: '\f137';
+}
+.sz-icon-bold.headphones-customer-support:before {
+  content: '\f138';
+}
+.sz-icon-bold.house-3:before {
+  content: '\f139';
+}
+.sz-icon-bold.information-circle:before {
+  content: '\f13a';
+}
+.sz-icon-bold.key-lock-1:before {
+  content: '\f13b';
+}
+.sz-icon-bold.keyboard-arrow-return-1:before {
+  content: '\f13c';
+}
+.sz-icon-bold.layout-bullets:before {
+  content: '\f13d';
+}
+.sz-icon-bold.layout-corners-dashboard-1:before {
+  content: '\f13e';
+}
+.sz-icon-bold.layout-dashboard:before {
+  content: '\f13f';
+}
+.sz-icon-bold.login-keys:before {
+  content: '\f140';
+}
+.sz-icon-bold.logout-2:before {
+  content: '\f141';
+}
+.sz-icon-bold.maps-pin-1:before {
+  content: '\f142';
+}
+.sz-icon-bold.medical-specialty-nose:before {
+  content: '\f143';
+}
+.sz-icon-bold.messages-bubble-edit-1:before {
+  content: '\f144';
+}
+.sz-icon-bold.messages-bubble-question:before {
+  content: '\f145';
+}
+.sz-icon-bold.mobile-phone-2:before {
+  content: '\f146';
+}
+.sz-icon-bold.mobile-shopping-shop-basket:before {
+  content: '\f147';
+}
+.sz-icon-bold.monetization-idea:before {
+  content: '\f148';
+}
+.sz-icon-bold.money-wallet-open:before {
+  content: '\f149';
+}
+.sz-icon-bold.move-expand-vertical:before {
+  content: '\f14a';
+}
+.sz-icon-bold.music-ear:before {
+  content: '\f14b';
+}
+.sz-icon-bold.navigation-left-circle-1_1:before {
+  content: '\f14c';
+}
+.sz-icon-bold.navigation-menu-4:before {
+  content: '\f14d';
+}
+.sz-icon-bold.navigation-menu-vertical:before {
+  content: '\f14e';
+}
+.sz-icon-bold.navigation-menu:before {
+  content: '\f14f';
+}
+.sz-icon-bold.navigation-right-circle-1_1:before {
+  content: '\f150';
+}
+.sz-icon-bold.network-users:before {
+  content: '\f151';
+}
+.sz-icon-bold.office-file-pdf-1:before {
+  content: '\f152';
+}
+.sz-icon-bold.office-outdoors:before {
+  content: '\f153';
+}
+.sz-icon-bold.paginate-filter-video:before {
+  content: '\f154';
+}
+.sz-icon-bold.pencil-write:before {
+  content: '\f155';
+}
+.sz-icon-bold.people-man-1:before {
+  content: '\f156';
+}
+.sz-icon-bold.people-woman-6:before {
+  content: '\f157';
+}
+.sz-icon-bold.performance-increase-2:before {
+  content: '\f158';
+}
+.sz-icon-bold.phone-actions-voice-mail:before {
+  content: '\f159';
+}
+.sz-icon-bold.print-text:before {
+  content: '\f15a';
+}
+.sz-icon-bold.products-briefcase:before {
+  content: '\f15b';
+}
+.sz-icon-bold.recycling-refresh:before {
+  content: '\f15c';
+}
+.sz-icon-bold.remove-square:before {
+  content: '\f15d';
+}
+.sz-icon-bold.remove:before {
+  content: '\f15e';
+}
+.sz-icon-bold.search-alternate:before {
+  content: '\f15f';
+}
+.sz-icon-bold.send-email:before {
+  content: '\f160';
+}
+.sz-icon-bold.single-neutral-actions-information:before {
+  content: '\f161';
+}
+.sz-icon-bold.single-neutral-actions-setting:before {
+  content: '\f162';
+}
+.sz-icon-bold.single-neutral-id-card-3:before {
+  content: '\f163';
+}
+.sz-icon-bold.subtract-square-alternate:before {
+  content: '\f164';
+}
+.sz-icon-bold.synchronize-arrow-2:before {
+  content: '\f165';
+}
+.sz-icon-bold.task-finger-show:before {
+  content: '\f166';
+}
+.sz-icon-bold.task-list-text-1:before {
+  content: '\f167';
+}
+.sz-icon-bold.time-clock-circle-1:before {
+  content: '\f168';
+}
+.sz-icon-bold.time-clock-hand-1:before {
+  content: '\f169';
+}
+.sz-icon-bold.view-1:before {
+  content: '\f16a';
+}
+.sz-icon-bold.view-off:before {
+  content: '\f16b';
+}
+.sz-icon-bold.water-fountain-drop:before {
+  content: '\f16c';
+}
+.sz-icon-bold.weather-cloud-heavy-rain:before {
+  content: '\f16d';
+}
+.sz-icon-bold.wifi-off:before {
+  content: '\f16e';
+}
+.sz-icon-bold.wifi-signal-2:before {
+  content: '\f16f';
+}
+.sz-icon-bold.wild-bird-eggs:before {
+  content: '\f170';
+}
+.sz-icon-bold.zip-file-download:before {
+  content: '\f171';
+}
