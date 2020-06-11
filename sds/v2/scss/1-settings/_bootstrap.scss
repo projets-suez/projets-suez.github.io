@@ -101,7 +101,7 @@ $link-hover-decoration: none;
 $enable-shadows: true;
 $enable-gradients: true;
 // Changing the border width and radius of buttons
-$border-width: 1px;
+$border-width: 2px;
 $border-radius: 2px;
 $border-radius-circle: 50px;
 // Changing the input border width
@@ -131,6 +131,7 @@ $label-margin-bottom: 0.25rem;
 $input-height: 3rem;
 $input-padding-y: 0;
 $input-padding-x: 1rem;
+$input-btn-border-width: 1px;
 $input-border-color: var(--gray-0);
 $input-box-shadow: none;
 $input-bg: var(--gray-0);
