@@ -75,6 +75,7 @@ $brand-light: $sz-green-light;
 $primary-brand: $brand-default;
 $primary-dark: $expert-blue;
 $primary-light: $white;
+$primary-contrast: $expert-blue;
 /// FUNCTIONAL VARS
 $primary: $primary-brand;
 $secondary: $primary-dark;
@@ -182,6 +183,7 @@ $colors: (
 );
 
 $theme-colors: (
+  'primary-contrast': $primary-contrast,
   'primary-brand': $primary-brand,
   'primary-dark': $primary-dark,
   'primary-light': $primary-light,
