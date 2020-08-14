@@ -92,9 +92,8 @@ pre code {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 48px;
+  height: 3rem;
   padding: 0 1rem;
-  box-shadow: none !important;
   outline: none !important;
   color: var(--blue-1);
 }
@@ -111,11 +110,9 @@ pre code {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 48px;
+    height: 3rem;
     padding: 0 1rem;
-    box-shadow: none !important;
     outline: none !important;
-    box-shadow: none;
     transition: 0.5s ease;
     i,
     span {
@@ -129,6 +126,9 @@ pre code {
         color: var(--primary-contrast);
         background-color: var(--primary-brand);
         border-color: var(--primary-brand);
+        &:focus {
+          box-shadow: none;
+        }
         i,
         span {
           color: var(--primary-contrast);

@@ -127,6 +127,10 @@ $font-weight-normal: 500 !default;
 $font-weight-bold: 900 !default;
 // Alert bg
 $alert-bg-level: 0;
+// Btn
+$btn-box-shadow: none;
+$btn-focus-box-shadow: none;
+$btn-active-box-shadow: none;
 // Inputs
 $label-margin-bottom: 0.25rem;
 $input-height: 3rem;
@@ -137,19 +141,25 @@ $input-border-color: var(--gray-0);
 $input-box-shadow: none;
 $input-bg: var(--gray-0);
 $input-focus-bg: var(--white);
+$input-btn-focus-box-shadow: $input-box-shadow;
 $input-placeholder-color: var(--placeholder);
-// Checkbox
-$custom-control-indicator-border-width: 2px;
-$custom-checkbox-indicator-border-radius: 4px;
 $custom-control-cursor: pointer;
+$custom-control-indicator-border-width: 2px;
 $custom-control-indicator-checked-bg: transparent;
-$custom-control-indicator-border-color: $primary-dark;
 $custom-control-indicator-checked-border-color: $primary-dark;
 $custom-control-indicator-checked-color: $primary-dark;
-$custom-control-indicator-size: 1.5rem;
+$custom-control-indicator-border-color: $primary-dark;
 $custom-control-indicator-focus-border-color: $primary-dark;
+$custom-control-indicator-size: 1.5rem;
 $custom-control-indicator-active-bg: transparent;
 $custom-control-indicator-active-border-color: $primary-dark;
+$custom-control-indicator-active-box-shadow: $input-box-shadow;
+$custom-control-indicator-checked-box-shadow: $input-box-shadow;
+$custom-control-indicator-focus-box-shadow: $input-box-shadow;
+// Checkbox
+$custom-checkbox-indicator-border-radius: 4px;
+$custom-checkbox-indicator-indeterminate-box-shadow: $input-box-shadow;
+
 // Adding (!) an additional theme color (ex. classes btn-suez, bg-suez)
 $colors: (
   'blue-1': $blue-1,
