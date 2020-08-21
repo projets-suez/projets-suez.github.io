@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Regular" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<title>wind-velocity-measure</title>
+<g>
+	<path d="M0.75,24C0.336,24,0,23.664,0,23.25V0.75C0,0.336,0.336,0,0.75,0S1.5,0.336,1.5,0.75v6.849l3.667-2.444
+		C5.591,4.732,6.152,4.5,6.75,4.5h12C21.645,4.5,24,6.855,24,9.75c0,2.895-2.355,5.25-5.25,5.25h-12
+		c-0.599,0-1.16-0.233-1.585-0.656L1.5,11.901V23.25C1.5,23.664,1.164,24,0.75,24z M18,13.5V6h-3v7.5H18z M13.5,13.5V6h-3v7.5H13.5z
+		 M6.75,6C6.336,6,6,6.336,6,6.75v6c0,0.414,0.336,0.75,0.75,0.75H9V6H6.75z M19.5,13.422c1.712-0.352,3-1.891,3-3.672
+		c0-1.781-1.288-3.32-3-3.672V13.422z M4.5,12.098V7.401l-3,2v0.697L4.5,12.098z"/>
+</g>
+</svg>
