@@ -20,6 +20,7 @@ $orange-light: #fbd5cc;
 /// GOLD
 $gold: #deb861;
 $gold-light: #f1e5cb;
+$moccasin: #FFC229;
 /// PURPLE
 $purple: #c65bab;
 $purple-light: #e2b2d6;
@@ -186,7 +187,7 @@ $colors: (
   'red-light': $red-light,
   'orange': $orange,
   'orange-light': $orange-light,
-  'gold': $gold,
+  'gold': $moccasin,
   'gold-light': $gold-light,
   'purple': $purple,
   'purple-light': $purple-light
@@ -211,5 +212,6 @@ $theme-colors: (
   'blue-sky': $blue-sky,
   'blue-sky-light': $blue-sky-light,
   'blue-clear': $blue-clear,
-  'blue-clear-light': $blue-clear-light
+  'blue-clear-light': $blue-clear-light,
+  'gold': $moccasin,
 );
