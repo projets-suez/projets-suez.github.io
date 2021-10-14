@@ -11085,8 +11085,6 @@ pre code {
   .btn-primary-brand i,
   .btn-primary-brand span {
     z-index: 2; }
-  .btn-primary-brand:focus, .btn-primary-brand.focus {
-    box-shadow: 0 0 0 0.1rem var(--primary-brand); }
   .btn-primary-brand:not(:disabled):not(.disabled):active {
     color: var(--primary-contrast);
     background-color: var(--primary-brand);
@@ -11099,7 +11097,8 @@ pre code {
   .btn-primary-brand:hover, .btn-primary-brand:focus {
     color: var(--primary-contrast);
     background: var(--primary-brand);
-    border-color: var(--primary-brand); }
+    border-color: var(--primary-brand);
+    box-shadow: none; }
     .btn-primary-brand:hover:not(:disabled)::after, .btn-primary-brand:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
