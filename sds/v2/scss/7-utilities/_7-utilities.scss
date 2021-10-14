@@ -15,9 +15,6 @@
 .big {
   font-size: 3.429em;
 }
-.huge {
-  font-size: 3rem;
-}
 .large {
   font-size: 2em;
 }
@@ -51,9 +48,6 @@
 }
 .sz-border-11 {
   border: 11px solid;
-}
-.sz-top-border {
-  border-top: 4px solid var(--primary-brand);
 }
 .sz-left-border {
   &-light::after,
@@ -148,7 +142,6 @@ pre code {
         color: var(--primary-contrast);
         background: var(--#{$color});
         border-color: var(--#{$color});
-        box-shadow: none;
         &:not(:disabled)::after {
           transform: scale(1, 1);
           border-radius: inherit;
@@ -186,7 +179,6 @@ pre code {
     } @else {
       background: var(--#{$color});
       border-color: var(--#{$color});
-      box-shadow: 0 0 0 0.2rem var(--primary-brand);
       &:hover,
       &:focus {
         &:not(:disabled)::after {
@@ -197,7 +189,6 @@ pre code {
         }
         background: var(--#{$color});
         border-color: var(--#{$color});
-        box-shadow: 0 0 0 0.2rem var(--primary-brand);
       }
     }
     &:not(:disabled)::after {

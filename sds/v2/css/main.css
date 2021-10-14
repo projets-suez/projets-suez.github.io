@@ -10568,9 +10568,6 @@ a.text-gold:hover, a.text-gold:focus {
 .big {
   font-size: 3.429em; }
 
-.huge {
-  font-size: 3rem; }
-
 .large {
   font-size: 2em; }
 
@@ -10602,9 +10599,6 @@ a.text-gold:hover, a.text-gold:focus {
 
 .sz-border-11 {
   border: 11px solid; }
-
-.sz-top-border {
-  border-top: 4px solid var(--primary-brand); }
 
 .sz-left-border-light::after, .sz-left-border::after {
   content: '';
@@ -10666,15 +10660,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--primary);
-  border-color: var(--primary);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--primary); }
   .btn-primary i,
   .btn-primary span {
     z-index: 2; }
   .btn-primary:hover, .btn-primary:focus {
     background: var(--primary);
-    border-color: var(--primary);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--primary); }
     .btn-primary:hover:not(:disabled)::after, .btn-primary:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -10712,15 +10704,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--secondary);
-  border-color: var(--secondary);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--secondary); }
   .btn-secondary i,
   .btn-secondary span {
     z-index: 2; }
   .btn-secondary:hover, .btn-secondary:focus {
     background: var(--secondary);
-    border-color: var(--secondary);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--secondary); }
     .btn-secondary:hover:not(:disabled)::after, .btn-secondary:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -10758,15 +10748,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--success);
-  border-color: var(--success);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--success); }
   .btn-success i,
   .btn-success span {
     z-index: 2; }
   .btn-success:hover, .btn-success:focus {
     background: var(--success);
-    border-color: var(--success);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--success); }
     .btn-success:hover:not(:disabled)::after, .btn-success:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -10804,15 +10792,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--info);
-  border-color: var(--info);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--info); }
   .btn-info i,
   .btn-info span {
     z-index: 2; }
   .btn-info:hover, .btn-info:focus {
     background: var(--info);
-    border-color: var(--info);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--info); }
     .btn-info:hover:not(:disabled)::after, .btn-info:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -10850,15 +10836,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--warning);
-  border-color: var(--warning);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--warning); }
   .btn-warning i,
   .btn-warning span {
     z-index: 2; }
   .btn-warning:hover, .btn-warning:focus {
     background: var(--warning);
-    border-color: var(--warning);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--warning); }
     .btn-warning:hover:not(:disabled)::after, .btn-warning:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -10896,15 +10880,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--danger);
-  border-color: var(--danger);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--danger); }
   .btn-danger i,
   .btn-danger span {
     z-index: 2; }
   .btn-danger:hover, .btn-danger:focus {
     background: var(--danger);
-    border-color: var(--danger);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--danger); }
     .btn-danger:hover:not(:disabled)::after, .btn-danger:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -10942,15 +10924,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--light);
-  border-color: var(--light);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--light); }
   .btn-light i,
   .btn-light span {
     z-index: 2; }
   .btn-light:hover, .btn-light:focus {
     background: var(--light);
-    border-color: var(--light);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--light); }
     .btn-light:hover:not(:disabled)::after, .btn-light:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -10988,15 +10968,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--dark);
-  border-color: var(--dark);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--dark); }
   .btn-dark i,
   .btn-dark span {
     z-index: 2; }
   .btn-dark:hover, .btn-dark:focus {
     background: var(--dark);
-    border-color: var(--dark);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--dark); }
     .btn-dark:hover:not(:disabled)::after, .btn-dark:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11034,15 +11012,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--primary-contrast);
-  border-color: var(--primary-contrast);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--primary-contrast); }
   .btn-primary-contrast i,
   .btn-primary-contrast span {
     z-index: 2; }
   .btn-primary-contrast:hover, .btn-primary-contrast:focus {
     background: var(--primary-contrast);
-    border-color: var(--primary-contrast);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--primary-contrast); }
     .btn-primary-contrast:hover:not(:disabled)::after, .btn-primary-contrast:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11097,8 +11073,7 @@ pre code {
   .btn-primary-brand:hover, .btn-primary-brand:focus {
     color: var(--primary-contrast);
     background: var(--primary-brand);
-    border-color: var(--primary-brand);
-    box-shadow: none; }
+    border-color: var(--primary-brand); }
     .btn-primary-brand:hover:not(:disabled)::after, .btn-primary-brand:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11141,15 +11116,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--primary-dark);
-  border-color: var(--primary-dark);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--primary-dark); }
   .btn-primary-dark i,
   .btn-primary-dark span {
     z-index: 2; }
   .btn-primary-dark:hover, .btn-primary-dark:focus {
     background: var(--primary-dark);
-    border-color: var(--primary-dark);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--primary-dark); }
     .btn-primary-dark:hover:not(:disabled)::after, .btn-primary-dark:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11235,15 +11208,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--brand-default);
-  border-color: var(--brand-default);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--brand-default); }
   .btn-brand-default i,
   .btn-brand-default span {
     z-index: 2; }
   .btn-brand-default:hover, .btn-brand-default:focus {
     background: var(--brand-default);
-    border-color: var(--brand-default);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--brand-default); }
     .btn-brand-default:hover:not(:disabled)::after, .btn-brand-default:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11281,15 +11252,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--brand-dark);
-  border-color: var(--brand-dark);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--brand-dark); }
   .btn-brand-dark i,
   .btn-brand-dark span {
     z-index: 2; }
   .btn-brand-dark:hover, .btn-brand-dark:focus {
     background: var(--brand-dark);
-    border-color: var(--brand-dark);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--brand-dark); }
     .btn-brand-dark:hover:not(:disabled)::after, .btn-brand-dark:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11327,15 +11296,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--brand-light);
-  border-color: var(--brand-light);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--brand-light); }
   .btn-brand-light i,
   .btn-brand-light span {
     z-index: 2; }
   .btn-brand-light:hover, .btn-brand-light:focus {
     background: var(--brand-light);
-    border-color: var(--brand-light);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--brand-light); }
     .btn-brand-light:hover:not(:disabled)::after, .btn-brand-light:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11373,15 +11340,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--danger-light);
-  border-color: var(--danger-light);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--danger-light); }
   .btn-danger-light i,
   .btn-danger-light span {
     z-index: 2; }
   .btn-danger-light:hover, .btn-danger-light:focus {
     background: var(--danger-light);
-    border-color: var(--danger-light);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--danger-light); }
     .btn-danger-light:hover:not(:disabled)::after, .btn-danger-light:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11419,15 +11384,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--warning-light);
-  border-color: var(--warning-light);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--warning-light); }
   .btn-warning-light i,
   .btn-warning-light span {
     z-index: 2; }
   .btn-warning-light:hover, .btn-warning-light:focus {
     background: var(--warning-light);
-    border-color: var(--warning-light);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--warning-light); }
     .btn-warning-light:hover:not(:disabled)::after, .btn-warning-light:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11465,15 +11428,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--info-light);
-  border-color: var(--info-light);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--info-light); }
   .btn-info-light i,
   .btn-info-light span {
     z-index: 2; }
   .btn-info-light:hover, .btn-info-light:focus {
     background: var(--info-light);
-    border-color: var(--info-light);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--info-light); }
     .btn-info-light:hover:not(:disabled)::after, .btn-info-light:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11511,15 +11472,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--success-light);
-  border-color: var(--success-light);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--success-light); }
   .btn-success-light i,
   .btn-success-light span {
     z-index: 2; }
   .btn-success-light:hover, .btn-success-light:focus {
     background: var(--success-light);
-    border-color: var(--success-light);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--success-light); }
     .btn-success-light:hover:not(:disabled)::after, .btn-success-light:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11557,15 +11516,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--btn-disabled);
-  border-color: var(--btn-disabled);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--btn-disabled); }
   .btn-btn-disabled i,
   .btn-btn-disabled span {
     z-index: 2; }
   .btn-btn-disabled:hover, .btn-btn-disabled:focus {
     background: var(--btn-disabled);
-    border-color: var(--btn-disabled);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--btn-disabled); }
     .btn-btn-disabled:hover:not(:disabled)::after, .btn-btn-disabled:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11603,15 +11560,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--disabled);
-  border-color: var(--disabled);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--disabled); }
   .btn-disabled i,
   .btn-disabled span {
     z-index: 2; }
   .btn-disabled:hover, .btn-disabled:focus {
     background: var(--disabled);
-    border-color: var(--disabled);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--disabled); }
     .btn-disabled:hover:not(:disabled)::after, .btn-disabled:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11649,15 +11604,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--placeholder);
-  border-color: var(--placeholder);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--placeholder); }
   .btn-placeholder i,
   .btn-placeholder span {
     z-index: 2; }
   .btn-placeholder:hover, .btn-placeholder:focus {
     background: var(--placeholder);
-    border-color: var(--placeholder);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--placeholder); }
     .btn-placeholder:hover:not(:disabled)::after, .btn-placeholder:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11695,15 +11648,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--inactive);
-  border-color: var(--inactive);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--inactive); }
   .btn-inactive i,
   .btn-inactive span {
     z-index: 2; }
   .btn-inactive:hover, .btn-inactive:focus {
     background: var(--inactive);
-    border-color: var(--inactive);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--inactive); }
     .btn-inactive:hover:not(:disabled)::after, .btn-inactive:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11741,15 +11692,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--blue-sky);
-  border-color: var(--blue-sky);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--blue-sky); }
   .btn-blue-sky i,
   .btn-blue-sky span {
     z-index: 2; }
   .btn-blue-sky:hover, .btn-blue-sky:focus {
     background: var(--blue-sky);
-    border-color: var(--blue-sky);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--blue-sky); }
     .btn-blue-sky:hover:not(:disabled)::after, .btn-blue-sky:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11787,15 +11736,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--blue-sky-light);
-  border-color: var(--blue-sky-light);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--blue-sky-light); }
   .btn-blue-sky-light i,
   .btn-blue-sky-light span {
     z-index: 2; }
   .btn-blue-sky-light:hover, .btn-blue-sky-light:focus {
     background: var(--blue-sky-light);
-    border-color: var(--blue-sky-light);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--blue-sky-light); }
     .btn-blue-sky-light:hover:not(:disabled)::after, .btn-blue-sky-light:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11833,15 +11780,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--blue-clear);
-  border-color: var(--blue-clear);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--blue-clear); }
   .btn-blue-clear i,
   .btn-blue-clear span {
     z-index: 2; }
   .btn-blue-clear:hover, .btn-blue-clear:focus {
     background: var(--blue-clear);
-    border-color: var(--blue-clear);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--blue-clear); }
     .btn-blue-clear:hover:not(:disabled)::after, .btn-blue-clear:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11879,15 +11824,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--blue-clear-light);
-  border-color: var(--blue-clear-light);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--blue-clear-light); }
   .btn-blue-clear-light i,
   .btn-blue-clear-light span {
     z-index: 2; }
   .btn-blue-clear-light:hover, .btn-blue-clear-light:focus {
     background: var(--blue-clear-light);
-    border-color: var(--blue-clear-light);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--blue-clear-light); }
     .btn-blue-clear-light:hover:not(:disabled)::after, .btn-blue-clear-light:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
@@ -11925,15 +11868,13 @@ pre code {
   outline: none !important;
   transition: 0.5s ease;
   background: var(--gold);
-  border-color: var(--gold);
-  box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+  border-color: var(--gold); }
   .btn-gold i,
   .btn-gold span {
     z-index: 2; }
   .btn-gold:hover, .btn-gold:focus {
     background: var(--gold);
-    border-color: var(--gold);
-    box-shadow: 0 0 0 0.2rem var(--primary-brand); }
+    border-color: var(--gold); }
     .btn-gold:hover:not(:disabled)::after, .btn-gold:focus:not(:disabled)::after {
       transform: scale(1, 1);
       border-radius: inherit;
