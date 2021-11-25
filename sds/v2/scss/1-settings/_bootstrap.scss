@@ -21,6 +21,10 @@ $orange-light: #fbd5cc;
 $gold: #deb861;
 $gold-light: #f1e5cb;
 $moccasin: #ffc229;
+/// YELLOW
+$yellow: #ffc229;
+$yellow-dark: #cd9e2e;
+$yellow-light: #ffe094;
 /// PURPLE
 $purple: #c65bab;
 $purple-light: #e2b2d6;
@@ -74,6 +78,7 @@ $brand-dark: $sz-green-dark;
 $brand-light: $sz-green-light;
 /// PRIMARY PALETTE
 $primary-brand: $brand-default;
+$primary-brand-light: $brand-light;
 $primary-dark: $expert-blue;
 $primary-light: $white;
 $primary-contrast: $expert-blue;
@@ -190,12 +195,15 @@ $colors: (
   'gold': $moccasin,
   'gold-light': $gold-light,
   'purple': $purple,
-  'purple-light': $purple-light
+  'purple-light': $purple-light,
+  'yellow': $yellow,
+  'yellow-light': $yellow-light
 );
 
 $theme-colors: (
   'primary-contrast': $primary-contrast,
   'primary-brand': $primary-brand,
+  'primary-brand-light': $primary-brand-light,
   'primary-dark': $primary-dark,
   'primary-light': $primary-light,
   'brand-default': $brand-default,
@@ -213,5 +221,7 @@ $theme-colors: (
   'blue-sky-light': $blue-sky-light,
   'blue-clear': $blue-clear,
   'blue-clear-light': $blue-clear-light,
-  'gold': $moccasin
+  'gold': $moccasin,
+  'card-disabled': $gray-500,
+  'card-disabled-light': $gray-200
 );
