@@ -86,6 +86,10 @@ pre code {
   color: var(--gold);
 }
 
+a {
+  text-decoration: underline;
+}
+
 @-moz-document url-prefix() {
   h1,
   h2,

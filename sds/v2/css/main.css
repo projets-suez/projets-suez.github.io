@@ -10987,6 +10987,9 @@ a.text-card-disabled-light:hover, a.text-card-disabled-light:focus {
 pre code {
   color: var(--gold); }
 
+a {
+  text-decoration: underline; }
+
 @-moz-document url-prefix() {
   h1,
   h2,
