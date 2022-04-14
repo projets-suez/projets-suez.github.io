@@ -35,6 +35,7 @@ $blue-sky: #59b9ff;
 $blue-sky-light: #c9e6fb;
 $blue-clear: #84dfff;
 $blue-clear-light: #d6f1fb;
+$blue-dark: #6095D6;
 $expert-blue: #030f40;
 $blue-1: #3d466c;
 $blue-2: #767c97;
@@ -82,6 +83,8 @@ $primary-brand-light: $brand-light;
 $primary-dark: $expert-blue;
 $primary-light: $white;
 $primary-contrast: $expert-blue;
+/// REDESIGN PALETTE
+$contained: $blue-1;
 /// FUNCTIONAL VARS
 $primary: $primary-brand;
 $secondary: $primary-dark;
@@ -179,6 +182,7 @@ $colors: (
   'blue-sky-light': $blue-sky-light,
   'blue-clear': $blue-clear,
   'blue-clear-light': $blue-clear-light,
+  'blue-dark': $blue-dark,
   'gray-800': $gray-800,
   'gray-600': $gray-600,
   'gray-500': $gray-500,
@@ -223,5 +227,10 @@ $theme-colors: (
   'blue-clear-light': $blue-clear-light,
   'gold': $moccasin,
   'card-disabled': $gray-500,
-  'card-disabled-light': $gray-200
+  'card-disabled-light': $gray-200,
+  'contained': $contained,
+  'contained-btn-disabled': $blue-3,
+  'outlined': $white,
+  'outlined-btn-disabled': $blue-3,
+  'text': $white
 );
