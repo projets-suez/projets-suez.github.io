@@ -1255,7 +1255,7 @@
   --blue-sky-light: #c9e6fb;
   --blue-clear: #84dfff;
   --blue-clear-light: #d6f1fb;
-  --blue-dark: #6095D6;
+  --blue-dark: #6095d6;
   --gray-800: #343a40;
   --gray-600: #6c757d;
   --gray-500: #adb5bd;
@@ -15315,6 +15315,110 @@ h3 {
   text-decoration: underline;
 }
 
+.sz-typo-h1.sm {
+  font-size: 1.25rem;
+}
+
+.sz-typo-h1.md {
+  font-size: 1.5rem;
+}
+
+.sz-typo-h1.lg {
+  font-size: 1.875rem;
+}
+
+.sz-typo-h1.xl {
+  font-size: 2.375rem;
+}
+
+.sz-typo-h2.sm {
+  font-size: 1rem;
+}
+
+.sz-typo-h2.md {
+  font-size: 1.25rem;
+}
+
+.sz-typo-h2.lg {
+  font-size: 1.75rem;
+}
+
+.sz-typo-h2.xl {
+  font-size: 2.25rem;
+}
+
+.sz-typo-h3.md {
+  font-size: 1.25rem;
+}
+
+.sz-typo-h3.lg {
+  font-size: 1.5rem;
+}
+
+.sz-typo-h3.xl {
+  font-size: 2rem;
+}
+
+.sz-typo-h4.md {
+  font-size: 1rem;
+}
+
+.sz-typo-h4.lg {
+  font-size: 1.25rem;
+}
+
+.sz-typo-h4.xl {
+  font-size: 1.75rem;
+}
+
+.sz-typo-h5.lg {
+  font-size: 1rem;
+}
+
+.sz-typo-h5.xl {
+  font-size: 1.5rem;
+}
+
+.sz-typo-body.sm {
+  font-size: 0.875rem;
+}
+
+.sz-typo-body.md {
+  font-size: 1rem;
+}
+
+.sz-typo-body.lg {
+  font-size: 1.125rem;
+}
+
+.sz-typo-body.xl {
+  font-size: 1.25rem;
+}
+
+.sz-typo-caption.md {
+  font-size: 0.75rem;
+}
+
+.sz-typo-caption.lg {
+  font-size: 0.875rem;
+}
+
+.sz-typo-button.sm {
+  font-size: 0.75rem;
+}
+
+.sz-typo-button.md {
+  font-size: 0.875rem;
+}
+
+.sz-typo-button.lg {
+  font-size: 1rem;
+}
+
+.sz-typo-highlight {
+  font-size: 3.5rem;
+}
+
 .sz-underline::after {
   content: "";
   display: block;
@@ -15338,6 +15442,10 @@ h3 {
 
 .sz-top-border {
   border-top: 4px solid var(--primary-brand);
+}
+
+.sz-rounded-top {
+  border-radius: 0.3rem 0.3rem 0 0 !important;
 }
 
 .sz-left-border-light::after, .sz-left-border::after {
@@ -15392,6 +15500,10 @@ h4,
   padding: 0 1rem;
   outline: none !important;
   color: var(--blue-1);
+}
+
+.text-outlined-error {
+  color: var(--red) !important;
 }
 
 .bg-primary {
@@ -17111,7 +17223,7 @@ h4,
   transition: 0.5s ease;
   background: var(--contained);
   border: 1px solid var(--contained);
-  border-radius: 4px;
+  border-radius: inherit;
 }
 .btn-contained i,
 .btn-contained span {
@@ -17232,7 +17344,7 @@ h4,
   color: var(--expert-blue);
   background: var(--outlined);
   border: 1px solid var(--blue-1);
-  border-radius: 4px;
+  border-radius: inherit;
 }
 .btn-outlined i,
 .btn-outlined span {
@@ -17412,4 +17524,12 @@ h4,
 
 .border-text {
   border-color: var(--text) !important;
+}
+
+.border-soft {
+  border-radius: 0.25rem;
+}
+
+.border-rounded {
+  border-radius: 3rem;
 }
