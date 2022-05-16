@@ -435,8 +435,20 @@ a {
 
 .border-soft {
   border-radius: 0.25rem;
+  @at-root .input-group > #{&}.form-control:not(:first-child),
+  .input-group > #{&}.custom-select:not(:first-child),
+  .input-group > #{&}.form-control:not(:last-child),
+  .input-group > #{&}.custom-select:not(:last-child) {
+    border-radius: 0.25rem;
+  }
 }
 
 .border-rounded {
   border-radius: 3rem;
+  @at-root .input-group > #{&}.form-control:not(:first-child),
+  .input-group > #{&}.custom-select:not(:first-child),
+  .input-group > #{&}.form-control:not(:last-child),
+  .input-group > #{&}.custom-select:not(:last-child) {
+    border-radius: 3rem;
+  }
 }

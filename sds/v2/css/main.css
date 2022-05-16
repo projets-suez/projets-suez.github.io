@@ -17529,7 +17529,19 @@ h4,
 .border-soft {
   border-radius: 0.25rem;
 }
+.input-group > .border-soft.form-control:not(:first-child),
+.input-group > .border-soft.custom-select:not(:first-child),
+.input-group > .border-soft.form-control:not(:last-child),
+.input-group > .border-soft.custom-select:not(:last-child) {
+  border-radius: 0.25rem;
+}
 
 .border-rounded {
+  border-radius: 3rem;
+}
+.input-group > .border-rounded.form-control:not(:first-child),
+.input-group > .border-rounded.custom-select:not(:first-child),
+.input-group > .border-rounded.form-control:not(:last-child),
+.input-group > .border-rounded.custom-select:not(:last-child) {
   border-radius: 3rem;
 }
