@@ -1,0 +1,236 @@
+/*** COLORS ***/
+// UI COLORS PALETTE
+$white: #ffffff;
+$gray-800: #343a40;
+$gray-600: #6c757d;
+$gray-500: #adb5bd;
+$gray-200: #e9ecef;
+$gray-100: #f8f9fa;
+$gray-0: #f4f8ff;
+/// GREEN
+$green: #30d158;
+$green-light: #c0f1cc;
+/// RED
+$red-dark: #800e21;
+$red: #eb4a65;
+$red-light: #f5c4cc;
+/// ORANGE
+$orange: #ff8363;
+$orange-light: #fbd5cc;
+/// GOLD
+$gold: #deb861;
+$gold-light: #f1e5cb;
+$moccasin: #ffc229;
+/// YELLOW
+$yellow: #ffc229;
+$yellow-dark: #cd9e2e;
+$yellow-light: #ffe094;
+/// PURPLE
+$purple: #c65bab;
+$purple-light: #e2b2d6;
+/// BLUE
+$blue-electric: #2e88ff;
+$blue-electric-light: #bcd7fb;
+$blue-sky: #59b9ff;
+$blue-sky-light: #c9e6fb;
+$blue-clear: #84dfff;
+$blue-clear-light: #d6f1fb;
+$blue-dark: #6095d6;
+$expert-blue: #030f40;
+$blue-1: #3d466c;
+$blue-2: #767c97;
+$blue-3: #abafbf;
+$blue-4: #d5d6de;
+/// BRAND PALETTE Bordeaux
+$bdx-blue-dark: #0089cc;
+$bdx-blue-default: #59b9ff;
+$bdx-blue-light: #93ebff;
+/// BRAND PALETTE Générique blue
+$blue-brand-dark: #002362;
+$blue-brand-default: #004990;
+$blue-brand-light: #4b74c1;
+/// BRAND PALETTE Dolea
+$da-blue-dark: #0080ad;
+$da-blue-default: #00b0df;
+$da-blue-light: #63e2ff;
+/// BRAND PALETTE Dunkerque
+$dke-blue-dark: #003377;
+$dke-blue-default: #175ba7;
+$dke-blue-light: #5987d9;
+/// BRAND PALETTE Sevese
+$sc-blue-dark: #51929e;
+$sc-blue-default: #82c3cf;
+$sc-blue-light: #b4f6ff;
+/// BRAND PALETTE Deop
+$sp-blue-dark: #007c98;
+$sp-blue-default: #00abc9;
+$sp-blue-light: #5eddfc;
+/// BRAND PALETTE Suez
+$sz-green-dark: #699c00;
+$sz-green-default: #9bcd41;
+$sz-green-light: #e0e7c7;
+/// BRAND PALETTE Toulouse
+$tm-blue-dark: #007586;
+$tm-blue-default: #00a4b6;
+$tm-blue-light: #5ad6e8;
+/// BRAND PALETTE DEFAULT
+$brand-default: $sz-green-default;
+$brand-dark: $sz-green-dark;
+$brand-light: $sz-green-light;
+/// PRIMARY PALETTE
+$primary-brand: $brand-default;
+$primary-brand-light: $brand-light;
+$primary-dark: $expert-blue;
+$primary-light: $white;
+$primary-contrast: $expert-blue;
+/// REDESIGN PALETTE
+$contained: $blue-1;
+/// FUNCTIONAL VARS
+$primary: $primary-brand;
+$secondary: $primary-dark;
+$success: $green;
+$success-light: $green-light;
+$info: $blue-sky;
+$info-light: $blue-sky-light;
+$warning: $gold;
+$warning-light: $gold-light;
+$danger: $red;
+$danger-light: $red-light;
+$gray: $gray-600;
+/*** COLORS ***/
+
+/*** GENERAL ***/
+// Changing the body background and text
+$body-bg: $gray-0;
+$body-color: var(--primary-dark);
+// Changing link style
+$link-color: $expert-blue;
+$link-hover-color: $expert-blue;
+$link-hover-decoration: none;
+// Enabling shadows and gradients
+$enable-shadows: true;
+$enable-gradients: true;
+// Changing the border width and radius of buttons
+$border-width: 2px;
+$border-radius: 2px;
+$border-radius-circle: 50px;
+// Changing the input border width
+$input-border-width: 1px;
+// Changing the table variables
+$table-border-width: 1px;
+$table-border-color: var(--gray-0);
+// Default spacing
+$default-spacing: 8px;
+// Font family
+$font-family-light: 'DINPro-Light';
+$font-family-regular: 'DINPro-Regular';
+$font-family-medium: 'DINPro-Medium';
+$font-family-bold: 'DINPro-Bold';
+// Font base
+$font-family-sans-serif: 'DINPro-Medium';
+$font-size-base: 1rem;
+$h1-font-size: 1.25rem;
+$h2-font-size: $font-size-base;
+$h3-font-size: $font-size-base;
+$font-weight-normal: 500 !default;
+$font-weight-bold: 900 !default;
+// Alert bg
+$alert-bg-level: 0;
+// Btn
+$btn-box-shadow: none;
+$btn-focus-box-shadow: none;
+$btn-active-box-shadow: none;
+// Inputs
+$label-margin-bottom: 0.25rem;
+$input-height: 3rem;
+$input-padding-y: 0;
+$input-padding-x: 1rem;
+$input-btn-border-width: 1px;
+$input-border-color: var(--gray-0);
+$input-box-shadow: none;
+$input-bg: var(--gray-0);
+$input-focus-bg: var(--white);
+$input-btn-focus-box-shadow: $input-box-shadow;
+$input-placeholder-color: var(--placeholder);
+$custom-control-cursor: pointer;
+$custom-control-indicator-border-width: 2px;
+$custom-control-indicator-checked-bg: transparent;
+$custom-control-indicator-checked-border-color: $primary-dark;
+$custom-control-indicator-checked-color: $primary-dark;
+$custom-control-indicator-border-color: $primary-dark;
+$custom-control-indicator-focus-border-color: $primary-dark;
+$custom-control-indicator-size: 1.5rem;
+$custom-control-indicator-active-bg: transparent;
+$custom-control-indicator-active-border-color: $primary-dark;
+$custom-control-indicator-active-box-shadow: $input-box-shadow;
+$custom-control-indicator-checked-box-shadow: $input-box-shadow;
+$custom-control-indicator-focus-box-shadow: $input-box-shadow;
+// Checkbox
+$custom-checkbox-indicator-border-radius: 4px;
+$custom-checkbox-indicator-indeterminate-box-shadow: $input-box-shadow;
+
+// Adding (!) an additional theme color (ex. classes btn-suez, bg-suez)
+$colors: (
+  'blue-1': $blue-1,
+  'blue-2': $blue-2,
+  'blue-3': $blue-3,
+  'blue-4': $blue-4,
+  'expert-blue': $expert-blue,
+  'blue-electric': $blue-electric,
+  'blue-electric-light': $blue-electric-light,
+  'blue-sky': $blue-sky,
+  'blue-sky-light': $blue-sky-light,
+  'blue-clear': $blue-clear,
+  'blue-clear-light': $blue-clear-light,
+  'blue-dark': $blue-dark,
+  'gray-800': $gray-800,
+  'gray-600': $gray-600,
+  'gray-500': $gray-500,
+  'gray-200': $gray-200,
+  'gray-100': $gray-100,
+  'gray-0': $gray-0,
+  'green': $green,
+  'green-light': $green-light,
+  'red-dark': $red-dark,
+  'red': $red,
+  'red-light': $red-light,
+  'orange': $orange,
+  'orange-light': $orange-light,
+  'gold': $moccasin,
+  'gold-light': $gold-light,
+  'purple': $purple,
+  'purple-light': $purple-light,
+  'yellow': $yellow,
+  'yellow-light': $yellow-light
+);
+
+$theme-colors: (
+  'primary-contrast': $primary-contrast,
+  'primary-brand': $primary-brand,
+  'primary-brand-light': $primary-brand-light,
+  'primary-dark': $primary-dark,
+  'primary-light': $primary-light,
+  'brand-default': $brand-default,
+  'brand-dark': $brand-dark,
+  'brand-light': $brand-light,
+  'danger-light': $danger-light,
+  'warning-light': $warning-light,
+  'info-light': $info-light,
+  'success-light': $success-light,
+  'btn-disabled': $blue-4,
+  'disabled': $gray-600,
+  'placeholder': $blue-1,
+  'inactive': $blue-2,
+  'blue-sky': $blue-sky,
+  'blue-sky-light': $blue-sky-light,
+  'blue-clear': $blue-clear,
+  'blue-clear-light': $blue-clear-light,
+  'gold': $moccasin,
+  'card-disabled': $gray-500,
+  'card-disabled-light': $gray-200,
+  'contained': $contained,
+  'contained-btn-disabled': $blue-3,
+  'outlined': $white,
+  'outlined-btn-disabled': $blue-3,
+  'text': $white
+);
