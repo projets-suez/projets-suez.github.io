@@ -17496,7 +17496,7 @@ h4,
   border-color: inherit;
 }
 .btn-text:hover .sz-icon-line, .btn-text:focus .sz-icon-line {
-  color: var(--blue-dark);
+  color: var(--brand-dark);
 }
 .btn-text.text-decoration-underline {
   text-decoration: underline;
