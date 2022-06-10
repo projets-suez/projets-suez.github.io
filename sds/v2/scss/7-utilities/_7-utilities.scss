@@ -105,7 +105,7 @@ $typoDesktop: (
   )
 );
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(lg) {
   @each $name, $values in $typoDesktop {
     @each $media, $value in $values {
       .sz-typo-#{$name}.#{$media} {
