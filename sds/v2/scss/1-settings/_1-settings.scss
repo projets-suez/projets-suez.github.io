@@ -2,3 +2,10 @@
 @import '~bootstrap/scss/_functions';
 @import '~bootstrap/scss/_variables';
 @import '~bootstrap/scss/mixins/_breakpoints';
+
+$spacers: map-merge(
+  (
+    6: ($spacer * 4)
+  ),
+  $spacers
+);
