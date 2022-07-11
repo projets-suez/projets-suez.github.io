@@ -5,7 +5,9 @@
 
 $spacers: map-merge(
   (
-    6: ($spacer * 4)
+    6: (
+      $spacer * 4
+    )
   ),
   $spacers
 );
