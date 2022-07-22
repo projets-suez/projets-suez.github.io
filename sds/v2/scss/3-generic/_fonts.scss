@@ -48,6 +48,23 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: $font-family-black;
+  src: url('../fonts/DINPro-Black/DINPro-Black.eot');
+  src: url('../fonts/DINPro-Black/DINPro-Black.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/DINPro-Black/DINPro-Black.svg#DINPro-Black') format('svg'),
+    url('../fonts/DINPro-Black/DINPro-Black.ttf') format('truetype'),
+    url('../fonts/DINPro-Black/DINPro-Black.woff') format('woff'),
+    url('../fonts/DINPro-Black/DINPro-Black.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-family-black {
+  font-family: $font-family-black;
+}
+
 .font-family-bold {
   font-family: $font-family-bold;
 }
