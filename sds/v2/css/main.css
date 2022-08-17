@@ -17915,3 +17915,19 @@ h4,
 .border-rounded {
   border-radius: 3rem;
 }
+
+.rounded-1 {
+  border-radius: 0.25rem;
+}
+.rounded-2 {
+  border-radius: 0.5rem;
+}
+.rounded-3 {
+  border-radius: 1rem;
+}
+.rounded-4 {
+  border-radius: 1.5rem;
+}
+.rounded-5 {
+  border-radius: 3rem;
+}

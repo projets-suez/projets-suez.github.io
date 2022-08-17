@@ -452,6 +452,7 @@ a {
   }
 }
 
+//TODO: remove when all components will use rounded-n class
 .border {
   &-soft {
     border-radius: 0.25rem;
@@ -462,6 +463,24 @@ a {
   }
 
   &-rounded {
+    border-radius: 3rem;
+  }
+}
+
+.rounded {
+  &-1 {
+    border-radius: 0.25rem;
+  }
+  &-2 {
+    border-radius: 0.5rem;
+  }
+  &-3 {
+    border-radius: 1rem;
+  }
+  &-4 {
+    border-radius: 1.5rem;
+  }
+  &-5 {
     border-radius: 3rem;
   }
 }
