@@ -1,13 +1,12 @@
 @font-face {
-  font-family: 'sz-icon-line';
-  src: url('../fonts/SzIcon-Line/SzIcon-Line.eot?#iefix')
-      format('embedded-opentype'),
-    url('../fonts/SzIcon-Line/SzIcon-Line.woff') format('woff'),
-    url('../fonts/SzIcon-Line/SzIcon-Line.woff2') format('woff2'),
-    url('../fonts/SzIcon-Line/SzIcon-Line.ttf') format('truetype'),
-    url('../fonts/SzIcon-Line/SzIcon-Line.svg#sz-icon-line') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: "sz-icon-line";
+	src: url('../fonts/SzIcon-Line/SzIcon-Line.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SzIcon-Line/SzIcon-Line.woff') format('woff'),
+      url('../fonts/SzIcon-Line/SzIcon-Line.woff2') format('woff2'),
+      url('../fonts/SzIcon-Line/SzIcon-Line.ttf') format('truetype'),
+      url('../fonts/SzIcon-Line/SzIcon-Line.svg#sz-icon-line') format('svg');
+	font-weight: normal;
+    font-style: normal;
 }
 
 [class^='sz-icon-line'],
@@ -27,445 +26,461 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@mixin font-icon($class) {
-  @extend .#{$class};
-}
+@mixin font-icon($class){ @extend .#{$class}; }
 
 .sz-icon-line.accounting-document:before {
-  content: '\f101';
+	content: "\f101";
 }
 .sz-icon-line.add-circle:before {
-  content: '\f102';
+	content: "\f102";
 }
 .sz-icon-line.add-square:before {
-  content: '\f103';
+	content: "\f103";
 }
 .sz-icon-line.agriculture-machine-tractor:before {
-  content: '\f104';
+	content: "\f104";
 }
 .sz-icon-line.alarm-bell:before {
-  content: '\f105';
+	content: "\f105";
 }
 .sz-icon-line.alert-triangle:before {
-  content: '\f106';
+	content: "\f106";
 }
 .sz-icon-line.ambulance-call:before {
-  content: '\f107';
+	content: "\f107";
 }
 .sz-icon-line.analytics-bars-3d:before {
-  content: '\f108';
+	content: "\f108";
+}
+.sz-icon-line.analytics-bars-circle:before {
+	content: "\f109";
+}
+.sz-icon-line.analytics-board-graph-line:before {
+	content: "\f10a";
+}
+.sz-icon-line.analytics-pie-2:before {
+	content: "\f10b";
 }
 .sz-icon-line.app-window-settings:before {
-  content: '\f109';
+	content: "\f10c";
 }
 .sz-icon-line.arrow-button-down-2:before {
-  content: '\f10a';
+	content: "\f10d";
 }
 .sz-icon-line.arrow-button-right-2:before {
-  content: '\f10b';
+	content: "\f10e";
 }
 .sz-icon-line.arrow-button-up-2:before {
-  content: '\f10c';
+	content: "\f10f";
 }
 .sz-icon-line.arrow-corner-left:before {
-  content: '\f10d';
+	content: "\f110";
 }
 .sz-icon-line.arrow-corner-right:before {
-  content: '\f10e';
+	content: "\f111";
 }
 .sz-icon-line.arrow-down-1:before {
-  content: '\f10f';
+	content: "\f112";
 }
 .sz-icon-line.arrow-down:before {
-  content: '\f110';
+	content: "\f113";
 }
 .sz-icon-line.arrow-left-1:before {
-  content: '\f111';
+	content: "\f114";
 }
 .sz-icon-line.arrow-left:before {
-  content: '\f112';
+	content: "\f115";
 }
 .sz-icon-line.arrow-rectangle-down:before {
-  content: '\f113';
+	content: "\f116";
 }
 .sz-icon-line.arrow-rectangle-left:before {
-  content: '\f114';
+	content: "\f117";
 }
 .sz-icon-line.arrow-rectangle-right:before {
-  content: '\f115';
+	content: "\f118";
 }
 .sz-icon-line.arrow-rectangle-up:before {
-  content: '\f116';
+	content: "\f119";
 }
 .sz-icon-line.arrow-right-1:before {
-  content: '\f117';
+	content: "\f11a";
 }
 .sz-icon-line.arrow-right:before {
-  content: '\f118';
+	content: "\f11b";
 }
 .sz-icon-line.arrow-up-1:before {
-  content: '\f119';
+	content: "\f11c";
 }
 .sz-icon-line.arrow-up:before {
-  content: '\f11a';
+	content: "\f11d";
 }
 .sz-icon-line.attachment:before {
-  content: '\f11b';
+	content: "\f11e";
 }
 .sz-icon-line.beach-sun-birds:before {
-  content: '\f11c';
+	content: "\f11f";
 }
 .sz-icon-line.bin-2-alternate:before {
-  content: '\f11d';
+	content: "\f120";
 }
 .sz-icon-line.business-contract-handshake-sign:before {
-  content: '\f11e';
+	content: "\f121";
 }
 .sz-icon-line.business-deal-cash-exchange:before {
-  content: '\f11f';
+	content: "\f122";
 }
 .sz-icon-line.button-next:before {
-  content: '\f120';
+	content: "\f123";
 }
 .sz-icon-line.button-previous:before {
-  content: '\f121';
+	content: "\f124";
 }
 .sz-icon-line.calendar-3:before {
-  content: '\f122';
+	content: "\f125";
 }
 .sz-icon-line.camera-1:before {
-  content: '\f123';
+	content: "\f126";
 }
 .sz-icon-line.cat-fish-toy:before {
-  content: '\f124';
+	content: "\f127";
 }
 .sz-icon-line.check-1:before {
-  content: '\f125';
+	content: "\f128";
 }
 .sz-icon-line.check-circle-1:before {
-  content: '\f126';
+	content: "\f129";
 }
 .sz-icon-line.close:before {
-  content: '\f127';
+	content: "\f12a";
 }
 .sz-icon-line.cog:before {
-  content: '\f128';
+	content: "\f12b";
 }
 .sz-icon-line.color-drop-pick:before {
-  content: '\f129';
+	content: "\f12c";
 }
 .sz-icon-line.common-file-double-2:before {
-  content: '\f12a';
+	content: "\f12d";
 }
 .sz-icon-line.common-file-text-download:before {
-  content: '\f12b';
+	content: "\f12e";
 }
 .sz-icon-line.common-file-text-upload:before {
-  content: '\f12c';
+	content: "\f12f";
 }
 .sz-icon-line.common-file-text:before {
-  content: '\f12d';
+	content: "\f130";
 }
 .sz-icon-line.construction-pipe:before {
-  content: '\f12e';
+	content: "\f131";
 }
 .sz-icon-line.copy-paste:before {
-  content: '\f12f';
+	content: "\f132";
 }
 .sz-icon-line.credit-card-1:before {
-  content: '\f130';
+	content: "\f133";
 }
 .sz-icon-line.currency-euro-circle:before {
-  content: '\f131';
+	content: "\f134";
 }
 .sz-icon-line.data-file-bars-info:before {
-  content: '\f132';
+	content: "\f135";
+}
+.sz-icon-line.database-1:before {
+	content: "\f136";
 }
 .sz-icon-line.diagram-round:before {
-  content: '\f133';
+	content: "\f137";
 }
 .sz-icon-line.download-bottom:before {
-  content: '\f134';
+	content: "\f138";
 }
 .sz-icon-line.envelope:before {
-  content: '\f135';
+	content: "\f139";
 }
 .sz-icon-line.filter-1:before {
-  content: '\f136';
+	content: "\f13a";
 }
 .sz-icon-line.floppy-disk:before {
-  content: '\f137';
+	content: "\f13b";
 }
 .sz-icon-line.folder-file-1:before {
-  content: '\f138';
+	content: "\f13c";
 }
 .sz-icon-line.gardening-hand-sprinkler:before {
-  content: '\f139';
+	content: "\f13d";
 }
 .sz-icon-line.gauge-dashboard-1:before {
-  content: '\f13a';
+	content: "\f13e";
 }
 .sz-icon-line.hardware-drill-carbide:before {
-  content: '\f13b';
+	content: "\f13f";
 }
 .sz-icon-line.headphones-customer-support:before {
-  content: '\f13c';
+	content: "\f140";
 }
 .sz-icon-line.hierarchy-5:before {
-  content: '\f13d';
+	content: "\f141";
+}
+.sz-icon-line.hourglass-1:before {
+	content: "\f142";
 }
 .sz-icon-line.house-3:before {
-  content: '\f13e';
+	content: "\f143";
 }
 .sz-icon-line.image-file-search:before {
-  content: '\f13f';
+	content: "\f144";
 }
 .sz-icon-line.information-circle:before {
-  content: '\f140';
+	content: "\f145";
 }
 .sz-icon-line.key-lock-1:before {
-  content: '\f141';
+	content: "\f146";
 }
 .sz-icon-line.keyboard-arrow-left:before {
-  content: '\f142';
+	content: "\f147";
 }
 .sz-icon-line.keyboard-arrow-return-1:before {
-  content: '\f143';
+	content: "\f148";
 }
 .sz-icon-line.keyboard-arrow-right:before {
-  content: '\f144';
+	content: "\f149";
 }
 .sz-icon-line.keyboard-arrow-top-right:before {
-  content: '\f145';
+	content: "\f14a";
 }
 .sz-icon-line.layout-bullets:before {
-  content: '\f146';
+	content: "\f14b";
 }
 .sz-icon-line.layout-corners-dashboard-1:before {
-  content: '\f147';
+	content: "\f14c";
 }
 .sz-icon-line.layout-dashboard:before {
-  content: '\f148';
+	content: "\f14d";
 }
 .sz-icon-line.login-keys:before {
-  content: '\f149';
+	content: "\f14e";
 }
 .sz-icon-line.logout-2:before {
-  content: '\f14a';
+	content: "\f14f";
 }
 .sz-icon-line.maps-pin-1:before {
-  content: '\f14b';
+	content: "\f150";
 }
 .sz-icon-line.maps:before {
-  content: '\f14c';
+	content: "\f151";
 }
 .sz-icon-line.medical-specialty-nose:before {
-  content: '\f14d';
+	content: "\f152";
 }
 .sz-icon-line.messages-bubble-edit:before {
-  content: '\f14e';
+	content: "\f153";
 }
 .sz-icon-line.messages-bubble-question:before {
-  content: '\f14f';
+	content: "\f154";
 }
 .sz-icon-line.mobile-phone:before {
-  content: '\f150';
+	content: "\f155";
 }
 .sz-icon-line.mobile-shopping-shop-basket:before {
-  content: '\f151';
+	content: "\f156";
 }
 .sz-icon-line.monetization-idea:before {
-  content: '\f152';
+	content: "\f157";
 }
 .sz-icon-line.money-wallet-open:before {
-  content: '\f153';
+	content: "\f158";
 }
 .sz-icon-line.move-expand-vertical:before {
-  content: '\f154';
+	content: "\f159";
 }
 .sz-icon-line.multiple-man-woman-1:before {
-  content: '\f155';
+	content: "\f15a";
 }
 .sz-icon-line.music-ear:before {
-  content: '\f156';
+	content: "\f15b";
 }
 .sz-icon-line.natural-disaster-water-level-fall:before {
-  content: '\f157';
+	content: "\f15c";
 }
 .sz-icon-line.natural-disaster-water-level-rise:before {
-  content: '\f158';
+	content: "\f15d";
 }
 .sz-icon-line.navigation-left-circle-1_1:before {
-  content: '\f159';
+	content: "\f15e";
 }
 .sz-icon-line.navigation-menu-4:before {
-  content: '\f15a';
+	content: "\f15f";
 }
 .sz-icon-line.navigation-menu-vertical:before {
-  content: '\f15b';
+	content: "\f160";
 }
 .sz-icon-line.navigation-menu:before {
-  content: '\f15c';
+	content: "\f161";
 }
 .sz-icon-line.navigation-right-circle-1:before {
-  content: '\f15d';
+	content: "\f162";
 }
 .sz-icon-line.network-users:before {
-  content: '\f15e';
+	content: "\f163";
 }
 .sz-icon-line.office-file-pdf-1:before {
-  content: '\f15f';
+	content: "\f164";
 }
 .sz-icon-line.office-file-txt-1:before {
-  content: '\f160';
+	content: "\f165";
 }
 .sz-icon-line.office-file-xls-1:before {
-  content: '\f161';
+	content: "\f166";
 }
 .sz-icon-line.office-outdoors:before {
-  content: '\f162';
+	content: "\f167";
 }
 .sz-icon-line.paginate-filter-video:before {
-  content: '\f163';
+	content: "\f168";
 }
 .sz-icon-line.pencil-write:before {
-  content: '\f164';
+	content: "\f169";
 }
 .sz-icon-line.people-man-1:before {
-  content: '\f165';
+	content: "\f16a";
 }
 .sz-icon-line.people-woman-6:before {
-  content: '\f166';
+	content: "\f16b";
 }
 .sz-icon-line.performance-increase-2:before {
-  content: '\f167';
+	content: "\f16c";
 }
 .sz-icon-line.phone-actions-voice-mail:before {
-  content: '\f168';
+	content: "\f16d";
 }
 .sz-icon-line.picture-landscape:before {
-  content: '\f169';
+	content: "\f16e";
 }
 .sz-icon-line.pin-location-1:before {
-  content: '\f16a';
+	content: "\f16f";
 }
 .sz-icon-line.pollution-faucet-water:before {
-  content: '\f16b';
+	content: "\f170";
 }
 .sz-icon-line.print-text:before {
-  content: '\f16c';
+	content: "\f171";
 }
 .sz-icon-line.products-briefcase:before {
-  content: '\f16d';
+	content: "\f172";
 }
 .sz-icon-line.professions-man-construction-1:before {
-  content: '\f16e';
+	content: "\f173";
 }
 .sz-icon-line.recycling-refresh:before {
-  content: '\f16f';
+	content: "\f174";
 }
 .sz-icon-line.remove-square:before {
-  content: '\f170';
+	content: "\f175";
 }
 .sz-icon-line.remove:before {
-  content: '\f171';
+	content: "\f176";
 }
 .sz-icon-line.resize-expand-corner-1:before {
-  content: '\f172';
+	content: "\f177";
 }
 .sz-icon-line.resize-shrink:before {
-  content: '\f173';
+	content: "\f178";
 }
 .sz-icon-line.saving-bank:before {
-  content: '\f174';
+	content: "\f179";
 }
 .sz-icon-line.search:before {
-  content: '\f175';
+	content: "\f17a";
 }
 .sz-icon-line.send-email-1:before {
-  content: '\f176';
+	content: "\f17b";
 }
 .sz-icon-line.single-neutral-actions-information:before {
-  content: '\f177';
+	content: "\f17c";
 }
 .sz-icon-line.single-neutral-actions-setting:before {
-  content: '\f178';
+	content: "\f17d";
 }
 .sz-icon-line.single-neutral-id-card-3:before {
-  content: '\f179';
+	content: "\f17e";
 }
 .sz-icon-line.smart-house-water:before {
-  content: '\f17a';
+	content: "\f17f";
 }
 .sz-icon-line.style-two-pin-question:before {
-  content: '\f17b';
+	content: "\f180";
 }
 .sz-icon-line.subtract-square:before {
-  content: '\f17c';
+	content: "\f181";
 }
 .sz-icon-line.synchronize-arrow-1:before {
-  content: '\f17d';
+	content: "\f182";
 }
 .sz-icon-line.task-finger-show:before {
-  content: '\f17e';
+	content: "\f183";
 }
 .sz-icon-line.task-list-text-1:before {
-  content: '\f17f';
+	content: "\f184";
 }
 .sz-icon-line.temperature-snowflake:before {
-  content: '\f180';
+	content: "\f185";
 }
 .sz-icon-line.temperature-thermometer:before {
-  content: '\f181';
+	content: "\f186";
 }
 .sz-icon-line.time-clock-circle-1:before {
-  content: '\f182';
+	content: "\f187";
 }
 .sz-icon-line.time-clock-hand-1:before {
-  content: '\f183';
+	content: "\f188";
+}
+.sz-icon-line.upload-button:before {
+	content: "\f189";
 }
 .sz-icon-line.view-1:before {
-  content: '\f184';
+	content: "\f18a";
 }
 .sz-icon-line.view-off:before {
-  content: '\f185';
+	content: "\f18b";
 }
 .sz-icon-line.water-fountain-drop:before {
-  content: '\f186';
+	content: "\f18c";
 }
 .sz-icon-line.water-protection-faucet:before {
-  content: '\f187';
+	content: "\f18d";
 }
 .sz-icon-line.water-protection-tower:before {
-  content: '\f188';
+	content: "\f18e";
 }
 .sz-icon-line.weather-cloud-1:before {
-  content: '\f189';
+	content: "\f18f";
 }
 .sz-icon-line.weather-cloud-heavy-rain:before {
-  content: '\f18a';
+	content: "\f190";
 }
 .sz-icon-line.weather-cloud-thunder-heavy:before {
-  content: '\f18b';
+	content: "\f191";
 }
 .sz-icon-line.weather-cloud-wind-4:before {
-  content: '\f18c';
+	content: "\f192";
 }
 .sz-icon-line.weather-sun:before {
-  content: '\f18d';
+	content: "\f193";
 }
 .sz-icon-line.wifi-off:before {
-  content: '\f18e';
+	content: "\f194";
 }
 .sz-icon-line.wifi-signal-2:before {
-  content: '\f18f';
+	content: "\f195";
 }
 .sz-icon-line.wild-bird-eggs:before {
-  content: '\f190';
+	content: "\f196";
 }
 .sz-icon-line.wind-velocity-measure:before {
-  content: '\f191';
+	content: "\f197";
 }
 .sz-icon-line.zip-file-download:before {
-  content: '\f192';
+	content: "\f198";
 }
