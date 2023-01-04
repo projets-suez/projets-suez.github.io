@@ -17954,16 +17954,6 @@ h4,
   border-color: var(--text) !important;
 }
 
-.border-soft {
-  border-radius: 0.25rem;
-}
-.border-smooth {
-  border-radius: 1rem;
-}
-.border-rounded {
-  border-radius: 3rem;
-}
-
 .rounded-1 {
   border-radius: 0.25rem;
 }
